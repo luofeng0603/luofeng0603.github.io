@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>落枫的博客</title>
   
-  
+  <subtitle>个人技术点滴记录</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://www.luofengblog.com/"/>
   <updated>2018-06-08T06:19:12.669Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://www.luofengblog.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>落枫</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/06/08/hello-world/"/>
-    <id>http://yoursite.com/2018/06/08/hello-world/</id>
+    <link href="http://www.luofengblog.com/2018/06/08/hello-world/"/>
+    <id>http://www.luofengblog.com/2018/06/08/hello-world/</id>
     <published>2018-06-08T06:19:12.668Z</published>
     <updated>2018-06-08T06:19:12.669Z</updated>
     
