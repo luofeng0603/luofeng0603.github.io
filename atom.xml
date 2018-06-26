@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-06-08T06:19:12.669Z</updated>
+  <updated>2018-06-26T08:56:31.140Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试文章</title>
+    <link href="http://www.luofengblog.com/2018/06/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+    <id>http://www.luofengblog.com/2018/06/26/测试文章/</id>
+    <published>2018-06-26T08:42:22.000Z</published>
+    <updated>2018-06-26T08:56:31.140Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;标题&lt;br&gt;这是一篇测试文章&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+      <category term="-测试" scheme="http://www.luofengblog.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
