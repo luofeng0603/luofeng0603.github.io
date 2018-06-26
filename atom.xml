@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>落枫的博客</title>
   
-  <subtitle>个人技术点滴记录</subtitle>
+  <subtitle>个人点滴记录</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
