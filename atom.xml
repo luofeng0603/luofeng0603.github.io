@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-06-26T08:56:31.140Z</updated>
+  <updated>2018-06-26T09:27:49.766Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.luofengblog.com/2018/06/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <id>http://www.luofengblog.com/2018/06/26/测试文章/</id>
     <published>2018-06-26T08:42:22.000Z</published>
-    <updated>2018-06-26T08:56:31.140Z</updated>
+    <updated>2018-06-26T09:27:49.766Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,7 @@
       
         
         
-          &lt;p&gt;标题&lt;br&gt;这是一篇测试文章&lt;/p&gt;
-
+          &lt;h1 id=&quot;标题1&quot;&gt;&lt;a href=&quot;#标题1&quot; class=&quot;headerlink&quot; title=&quot;标题1&quot;&gt;&lt;/a&gt;标题1&lt;/h1&gt;&lt;h2 id=&quot;标题2&quot;&gt;&lt;a href=&quot;#标题2&quot; class=&quot;headerlink&quot;
         
       
     
