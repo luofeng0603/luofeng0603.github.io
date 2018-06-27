@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-06-27T06:48:32.535Z</updated>
+  <updated>2018-06-27T07:34:46.475Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -21,17 +21,13 @@
     <link href="http://www.luofengblog.com/2018/06/27/about.html/"/>
     <id>http://www.luofengblog.com/2018/06/27/about.html/</id>
     <published>2018-06-27T01:58:34.000Z</published>
-    <updated>2018-06-27T06:48:32.535Z</updated>
+    <updated>2018-06-27T07:34:46.475Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;
-        
-      
+      &lt;p&gt; &amp;emsp;&amp;emsp;其实我是不想写博客的，因为我实在是太忙了（哦不，太懒了），有了孩子之后，留给自己的时间就更少了，本来以前晚上回去还能弄弄电脑，提升一下自我，现在基本上回家抱抱孩子，跟他玩一会就10点多了，年纪大了，一到11点就困的不行，所以真的是有心无力呀。&lt;/p&gt;
+&lt;p&gt; &amp;emsp;&amp;emsp;不过话又说回来，时间就像那啥,挤挤总是有的，更何况现在工作中遇到的坑实在是太多了，很多坑往往之前跳过，现在遇到了就是想不起来，又跳进去了，长此以往，累的够呛，真的是需要有一个博客存放我跳坑的经验呀！&lt;/p&gt;
+&lt;p&gt; &amp;emsp;&amp;emsp;关于到底在哪里写博客这个问题真是让我纠结了半天，作为一个程序猿，必须要写出自己的逼格呀，所以我最后选了&lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitPage&lt;/a&gt; 来写博客。&lt;br&gt;
     
     </summary>
     
@@ -43,17 +39,11 @@
     <link href="http://www.luofengblog.com/2018/06/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <id>http://www.luofengblog.com/2018/06/26/测试文章/</id>
     <published>2018-06-26T08:42:22.000Z</published>
-    <updated>2018-06-26T09:57:53.938Z</updated>
+    <updated>2018-06-27T08:05:50.391Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;标题1&quot;&gt;&lt;a href=&quot;#标题1&quot; class=&quot;headerlink&quot; title=&quot;标题1&quot;&gt;&lt;/a&gt;标题1&lt;/h1&gt;&lt;h2 id=&quot;标题2&quot;&gt;&lt;a href=&quot;#标题2&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h1 id=&quot;标题1&quot;&gt;&lt;a href=&quot;#标题1&quot; class=&quot;headerlink&quot; title=&quot;标题1&quot;&gt;&lt;/a&gt;标题1&lt;/h1&gt;&lt;h2 id=&quot;标题2&quot;&gt;&lt;a href=&quot;#标题2&quot; class=&quot;headerlink&quot; title=&quot;标题2&quot;&gt;&lt;/a&gt;标题2&lt;/h2&gt;&lt;h1 id=&quot;一级标题-ID&quot;&gt;&lt;a href=&quot;#一级标题-ID&quot; class=&quot;headerlink&quot; title=&quot;一级标题 ID&quot;&gt;&lt;/a&gt;一级标题 ID&lt;/h1&gt;&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot; title=&quot;二级标题&quot;&gt;&lt;/a&gt;二级标题&lt;/h2&gt;&lt;h3 id=&quot;三级标题&quot;&gt;&lt;a href=&quot;#三级标题&quot; class=&quot;headerlink&quot; title=&quot;三级标题&quot;&gt;&lt;/a&gt;三级标题&lt;/h3&gt;
     
     </summary>
     
@@ -67,17 +57,12 @@
     <link href="http://www.luofengblog.com/2018/06/08/hello-world/"/>
     <id>http://www.luofengblog.com/2018/06/08/hello-world/</id>
     <published>2018-06-08T06:19:12.668Z</published>
-    <updated>2018-06-08T06:19:12.669Z</updated>
+    <updated>2018-06-27T08:08:11.197Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;
     
     </summary>
     

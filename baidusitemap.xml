@@ -4,12 +4,12 @@
 
     
   <url>
-    <loc>http://www.luofengblog.com/2018/06/27/about.html/</loc>
-    <lastmod>2018-06-27T06:48:32.535Z</lastmod>
+    <loc>http://www.luofengblog.com/2018/06/08/hello-world/</loc>
+    <lastmod>2018-06-27T08:08:11.197Z</lastmod>
     <data>
         <display>
-        <title>关于我</title>
-        <pubTime>2018-06-27T01:58:34.000Z</pubTime>
+        <title>Hello World</title>
+        <pubTime>2018-06-08T06:19:12.668Z</pubTime>
         
          
            
@@ -20,7 +20,7 @@
     
   <url>
     <loc>http://www.luofengblog.com/2018/06/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2018-06-26T09:57:53.938Z</lastmod>
+    <lastmod>2018-06-27T08:05:50.391Z</lastmod>
     <data>
         <display>
         <title>测试文章</title>
@@ -35,16 +35,13 @@
     </url>
 
     
-    
-    
-    
   <url>
-    <loc>http://www.luofengblog.com/2018/06/08/hello-world/</loc>
-    <lastmod>2018-06-08T06:19:12.669Z</lastmod>
+    <loc>http://www.luofengblog.com/2018/06/27/about.html/</loc>
+    <lastmod>2018-06-27T07:34:46.475Z</lastmod>
     <data>
         <display>
-        <title>Hello World</title>
-        <pubTime>2018-06-08T06:19:12.668Z</pubTime>
+        <title>关于我</title>
+        <pubTime>2018-06-27T01:58:34.000Z</pubTime>
         
          
            
@@ -52,4 +49,7 @@
     </data>
     </url>
 
+    
+    
+    
 </urlset>
