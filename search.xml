@@ -3,6 +3,15 @@
   
     
     <entry>
+      <title>about</title>
+      <link href="/2018/06/27/about/"/>
+      <url>/2018/06/27/about/</url>
+      <content type="html"><![CDATA[]]></content>
+      
+      
+    </entry>
+    
+    <entry>
       <title>测试文章</title>
       <link href="/2018/06/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
       <url>/2018/06/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
@@ -37,16 +46,16 @@
     </entry>
     
     <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     

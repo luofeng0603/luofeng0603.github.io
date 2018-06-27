@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-06-26T09:57:53.938Z</updated>
+  <updated>2018-06-27T02:03:33.079Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>about</title>
+    <link href="http://www.luofengblog.com/2018/06/27/about/"/>
+    <id>http://www.luofengblog.com/2018/06/27/about/</id>
+    <published>2018-06-27T01:58:34.000Z</published>
+    <updated>2018-06-27T02:03:33.079Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>测试文章</title>
