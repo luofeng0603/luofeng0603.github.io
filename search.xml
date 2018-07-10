@@ -3,24 +3,39 @@
   
     
     <entry>
-      <title>关于我</title>
-      <link href="/2018/06/27/about.html/"/>
-      <url>/2018/06/27/about.html/</url>
-      <content type="html"><![CDATA[<p> &emsp;&emsp;其实我是不想写博客的，因为我实在是太忙了（哦不，太懒了），有了孩子之后，留给自己的时间就更少了，本来以前晚上回去还能弄弄电脑，提升一下自我，现在基本上回家抱抱孩子，跟他玩一会就10点多了，年纪大了，一到11点就困的不行，所以真的是有心无力呀。</p><p> &emsp;&emsp;不过话又说回来，时间就像那啥,挤挤总是有的，更何况现在工作中遇到的坑实在是太多了，很多坑往往之前跳过，现在遇到了就是想不起来，又跳进去了，长此以往，累的够呛，真的是需要有一个博客存放我跳坑的经验呀！</p><p> &emsp;&emsp;关于到底在哪里写博客这个问题真是让我纠结了半天，作为一个程序猿，必须要写出自己的逼格呀，所以我最后选了<a href="https://pages.github.com/" target="_blank" rel="noopener">GitPage</a> 来写博客。<br> <a id="more"></a><br> &emsp;&emsp;原因无他，可以装X，WordPress简单是简单，关键是不能体现我的逼格呀，哈哈，所以折腾了几天用Hexo弄了这个博客，其中也是一把辛酸泪，好一顿折腾，具体去翻我的博文。</p><p> &emsp;&emsp;我的工作涉及略杂，主要是php，主写各种后台，也写微信小程序，有的时候也写前端页面，谈不上哪一方向精通，但是各类技术都略有涉猎，平常见到新知识有时间就学习一下，不针对某个方面。</p><p> &emsp;&emsp;目前除了写代码，大部分时间贡献出来给我的Swtich了，公司程序猿基本人手一个，玩的都是2017年神作塞尔达，哈哈，就问你6不6？来张合照秀一下。<br><img src="/assets/IMG_20180621_131604.jpg" alt="公司程序猿的switch"><br> &emsp;&emsp;花了几百块钱买了luofengblog.com这个域名，我是想既然花钱了，是不是应该珍惜一点，多坚持一下，不想弄博客，就是怕自己坚持不了，免费的东西总觉得来之太易不太容易坚持，希望花点钱且写且坚持，顺便锻炼一下写作！</p>]]></content>
+      <title>test</title>
+      <link href="/2018/06/27/www.luofengblog.com/test.html/"/>
+      <url>/2018/06/27/www.luofengblog.com/test.html/</url>
+      <content type="html"><![CDATA[<p>测试引用：<br><blockquote><p>Do not just seek happiness for youself.</p><footer><strong>David Levithan</strong><cite><a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a></cite></footer></blockquote></p><p>普通代码块<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ">alert(&apos;Hello World!&apos;);<br></code></pre></td></tr></table></figure></p>]]></content>
       
       
     </entry>
     
     <entry>
-      <title>测试文章</title>
-      <link href="/2018/06/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-      <url>/2018/06/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
-      <content type="html"><![CDATA[<h1 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2"><a href="#标题2" class="headerlink" title="标题2"></a>标题2</h2><h1 id="一级标题-ID"><a href="#一级标题-ID" class="headerlink" title="一级标题 ID"></a>一级标题 ID</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><a id="more"></a><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><pre><code>这是正文部分了，啊我搞一个段落看看，测试一下文章的段落好了，这是第二个段落，测试测试，继续测试，今天天气真是热爆了，外面气温37°，要疯了，出去跟蒸桑拿似的，一出一进一身汗，还是待在办公室好了，嗯，继续撸我的代码吧。还有很多东西要写呢。博客也要搞起来了，拖了很久了，懒癌得好好治治了。正文测试结束</code></pre><p><del>测试删除</del></p><p>下面我要测试引用</p><blockquote><p>npm install -g</p><h2 id="H2引用"><a href="#H2引用" class="headerlink" title="H2引用"></a>H2引用</h2></blockquote><p>测试强调<br><em>强调</em><br>_强调_<br><strong>强调</strong><br><strong>强调</strong></p><p>列表</p><ul><li>苹果</li><li>香蕉</li><li>草莓</li></ul><ul><li>奔驰</li><li>奥迪</li><li>宝马</li></ul><ul><li>手表</li><li>项链</li><li>戒指</li></ul><ol><li>妈妈</li><li>爸爸</li><li>爷爷</li><li>奶奶</li></ol><ul><li><p>苹果</p><p>  红富士</p><p>  蛇果</p></li><li><p>菠萝</p><p>  凤梨</p></li></ul><p>链接<br>这是一个链接<a href="http://wwww.baidu.com" title="跳转链接" target="_blank" rel="noopener">点我</a></p><p>我的友情链接地址：<br><a href="http://zhangsan.com" target="_blank" rel="noopener">张三</a><br><a href="http://lisi.com" target="_blank" rel="noopener">李四</a><br><a href="http://wangwu.com" target="_blank" rel="noopener">王五</a></p><p>链接自动生成 <a href="http://github.com" target="_blank" rel="noopener">Github</a></p><p>引用:</p><blockquote><p>这是一个引用<br>另一个引用</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs flow">st=&gt;start: 开始<br>op=&gt;operation: My Operation<br>cond=&gt;condition: Yes or No?<br>e=&gt;end<br>st-&gt;op-&gt;cond<br>cond(yes)-&gt;e<br>cond(no)-&gt;op<br>&amp;<br></code></pre></td></tr></table></figure><p>代码<br><code>block</code></p><blockquote><br>php think crud -t test/test<br></blockquote><p>图片<br><img src="/images/avatar.jpg" alt="alt text" title="头像"></p><figure class="highlight javascript"><figcaption><span>&#123;.class1 .class&#125;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">add</span>(<span class="hljs-params">x,y</span>)</span>&#123;<br>    <span class="hljs-keyword">return</span> x + y<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+      <title>关于我</title>
+      <link href="/2018/06/27/about.html/"/>
+      <url>/2018/06/27/about.html/</url>
+      <content type="html"><![CDATA[<p> &emsp;&emsp;其实我是不想写博客的，因为我实在是太忙了（哦不，太懒了），有了孩子之后，留给自己的时间就更少了，本来以前晚上回去还能弄弄电脑，提升一下自我，现在基本上回家抱抱孩子，跟他玩一会就10点多了，年纪大了，一到11点就困的不行，所以真的是有心无力呀。</p><p> &emsp;&emsp;不过话又说回来，时间就像那啥,挤挤总是有的，更何况现在工作中遇到的坑实在是太多了，很多坑往往之前跳过，现在遇到了就是想不起来，又跳进去了，长此以往，累的够呛，真的是需要有一个博客存放我跳坑的经验呀！</p><p> &emsp;&emsp;关于到底在哪里写博客这个问题真是让我纠结了半天，作为一个程序猿，必须要写出自己的逼格呀，所以我最后选了<a href="https://pages.github.com/" target="_blank" rel="noopener">GitPage</a> 来写博客。<br> <a id="more"></a><br> &emsp;&emsp;原因无他，可以装X，WordPress简单是简单，关键是不能体现我的逼格呀，哈哈，所以折腾了几天用Hexo弄了这个博客，其中也是一把辛酸泪，好一顿折腾，具体去翻我的博文。</p><p> &emsp;&emsp;我的工作涉及略杂，主要是php，主写各种后台，也写微信小程序，有的时候也写前端页面，谈不上哪一方向精通，但是各类技术都略有涉猎，平常见到新知识有时间就学习一下，不针对某个方面。</p><p> &emsp;&emsp;目前除了写代码，大部分时间贡献出来给我的Swtich了，公司程序猿基本人手一个，玩的都是2017年神作塞尔达，哈哈，就问你6不6？来张合照秀一下。<br><img src="http://pbmsgh6d0.bkt.clouddn.com/IMG_20180621_131604.jpg" alt="公司程序猿的switch"><br> &emsp;&emsp;花了几百块钱买了luofengblog.com这个域名，我是想既然花钱了，是不是应该珍惜一点，多坚持一下，不想弄博客，就是怕自己坚持不了，免费的东西总觉得来之太易不太容易坚持，希望花点钱且写且坚持，顺便锻炼一下写作！</p>]]></content>
       
       
         <tags>
             
-            <tag> -测试 </tag>
+            <tag> 关于 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>开始使用</title>
+      <link href="/2018/06/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+      <url>/2018/06/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+      <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><p>欢迎使用 Hexo , 本文档将帮助您快速上手。如果您在使用过程中遇到问题，请查看 <a href="http://www.baidu.com" target="_blank" rel="noopener">问题解答</a> 中的解答，或者在 <a href="http://www.github.com" target="_blank" rel="noopener">GitHub</a>、 <a href="http://www.googlegroup.com" target="_blank" rel="noopener">Google Group</a> 上提问。</p><h2 id="什么是-Hexo-？"><a href="#什么是-Hexo-？" class="headerlink" title="什么是 Hexo ？"></a>什么是 Hexo ？</h2><p>Hexo 是一个快速、简洁且高效的博客框架。 Hexo 使用 <a href="http://www.markdown.com" target="_blank" rel="noopener">MarkDown</a> (或其他渲染引擎) 解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>安装 Hexo 只需要几分钟时间，若您在安装过程中遇到问题或无法找到解决方式，请<a href="">提交问题</a>,我会尽力解决您的问题。</p><h2 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h2><p>安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：</p><ul><li><a href="htt://www.node.com" target="_blank" rel="noopener">Node.js</a></li><li><a href="htt://www.git.com" target="_blank" rel="noopener">Git</a></li></ul><p>如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 <code>npm</code> 即可完成 Hexo 的安装。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs undefined">$ npm install -g hexo-cli<br></code></pre></td></tr></table></figure><p>如果您的电脑中尚未安装所需要的程序，请根据以下安装指示完成安装。</p><blockquote class="note warn"><br><strong>Mac 用户</strong><br><br>您在编译时可能会遇到问题，请先到 App Store 安装 Xcode, Xcode 完成后，启动并进入 <strong>Preferences-&gt; Download -&gt; Command Line Tools -&gt; Install</strong> 安装命令行工具。<br></blockquote><h2 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h2><ul><li>Windows : 下载并安装 <a href="http://www.git.com" target="_blank" rel="noopener">git</a></li><li>Mac : 使用 <a href="">Homebrew</a>,<a href="">MacPorts</a> : <code>brew install git;</code> 或下载 <a href="">安装程序</a> 安装。</li><li>Linux (Ubuntu,Debian): <code>sudo apt-get install git-core</code></li><li>Linux (Fedora,Red Hat,CentOS): <code>sudo yum install git-core</code></li></ul>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
             
         </tags>
       

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-06-27T07:34:46.475Z</updated>
+  <updated>2018-06-27T10:26:57.798Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test</title>
+    <link href="http://www.luofengblog.com/2018/06/27/www.luofengblog.com/test.html/"/>
+    <id>http://www.luofengblog.com/2018/06/27/www.luofengblog.com/test.html/</id>
+    <published>2018-06-27T09:58:39.000Z</published>
+    <updated>2018-06-27T10:26:57.798Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;测试引用：&lt;br&gt;&lt;blockquote&gt;&lt;p&gt;Do not just seek happiness for youself.&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;David Levithan&lt;/strong&gt;&lt;cite&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>关于我</title>
     <link href="http://www.luofengblog.com/2018/06/27/about.html/"/>
     <id>http://www.luofengblog.com/2018/06/27/about.html/</id>
     <published>2018-06-27T01:58:34.000Z</published>
-    <updated>2018-06-27T07:34:46.475Z</updated>
+    <updated>2018-07-10T05:19:57.829Z</updated>
     
     <summary type="html">
     
@@ -32,23 +55,31 @@
     </summary>
     
     
+      <category term="关于" scheme="http://www.luofengblog.com/tags/%E5%85%B3%E4%BA%8E/"/>
+    
   </entry>
   
   <entry>
-    <title>测试文章</title>
+    <title>开始使用</title>
     <link href="http://www.luofengblog.com/2018/06/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <id>http://www.luofengblog.com/2018/06/26/测试文章/</id>
     <published>2018-06-26T08:42:22.000Z</published>
-    <updated>2018-06-27T08:05:50.391Z</updated>
+    <updated>2018-06-27T10:05:04.505Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;标题1&quot;&gt;&lt;a href=&quot;#标题1&quot; class=&quot;headerlink&quot; title=&quot;标题1&quot;&gt;&lt;/a&gt;标题1&lt;/h1&gt;&lt;h2 id=&quot;标题2&quot;&gt;&lt;a href=&quot;#标题2&quot; class=&quot;headerlink&quot; title=&quot;标题2&quot;&gt;&lt;/a&gt;标题2&lt;/h2&gt;&lt;h1 id=&quot;一级标题-ID&quot;&gt;&lt;a href=&quot;#一级标题-ID&quot; class=&quot;headerlink&quot; title=&quot;一级标题 ID&quot;&gt;&lt;/a&gt;一级标题 ID&lt;/h1&gt;&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot; title=&quot;二级标题&quot;&gt;&lt;/a&gt;二级标题&lt;/h2&gt;&lt;h3 id=&quot;三级标题&quot;&gt;&lt;a href=&quot;#三级标题&quot; class=&quot;headerlink&quot; title=&quot;三级标题&quot;&gt;&lt;/a&gt;三级标题&lt;/h3&gt;
+      
+      
+        
+        
+          &lt;h2 id=&quot;文档&quot;&gt;&lt;a href=&quot;#文档&quot; class=&quot;headerlink&quot; title=&quot;文档&quot;&gt;&lt;/a&gt;文档&lt;/h2&gt;&lt;p&gt;欢迎使用 Hexo , 本文档将帮助您快速上手。如果您在使用过程中遇到问题，请查看 &lt;a
+        
+      
     
     </summary>
     
     
-      <category term="-测试" scheme="http://www.luofengblog.com/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://www.luofengblog.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
