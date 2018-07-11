@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-07-11T01:23:02.071Z</updated>
+  <updated>2018-07-11T05:50:34.871Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo搭建个人博客系列(一)：安装</title>
+    <link href="http://www.luofengblog.com/2018/07/11/hexo/"/>
+    <id>http://www.luofengblog.com/2018/07/11/hexo/</id>
+    <published>2018-07-11T05:25:44.000Z</published>
+    <updated>2018-07-11T05:50:34.871Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;p&gt;&lt;code&gt;以下所有工作，环境默认Win10&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装 &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://www.luofengblog.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://www.luofengblog.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>IKBC POKER 最适合程序员的键位编程</title>
     <link href="http://www.luofengblog.com/2018/07/10/ikbc-poker/"/>
     <id>http://www.luofengblog.com/2018/07/10/ikbc-poker/</id>
     <published>2018-07-10T05:28:20.000Z</published>
-    <updated>2018-07-11T01:23:02.071Z</updated>
+    <updated>2018-07-11T05:42:26.200Z</updated>
     
     <summary type="html">
     
