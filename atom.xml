@@ -47,19 +47,17 @@
     <link href="http://www.luofengblog.com/2018/07/11/hexo1/"/>
     <id>http://www.luofengblog.com/2018/07/11/hexo1/</id>
     <published>2018-07-11T05:25:44.000Z</published>
-    <updated>2018-07-11T07:31:32.251Z</updated>
+    <updated>2018-07-11T09:28:00.457Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作:&quot;&gt;&lt;/a&gt;准备工作:&lt;/h2&gt;&lt;p&gt;&lt;code&gt;以下所有工作，环境默认Win10&lt;/code&gt;&lt;/p&gt;
+      &lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作:&quot;&gt;&lt;/a&gt;准备工作:&lt;/h2&gt;&lt;p&gt;&lt;code&gt;以下所有工作，环境默认Win10&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;安装 &lt;a
-        
-      
+&lt;li&gt;安装 &lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;安装 &lt;a href=&quot;http://cmder.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Cmder完整版&lt;/a&gt; 或者安装 &lt;a href=&quot;https://gitforwindows.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Git for Window&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;注册 &lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github&lt;/a&gt; 并新建Gitpage专用仓库&lt;/li&gt;
+&lt;li&gt;安装 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;安装Hexo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
