@@ -3,10 +3,31 @@
   
     
     <entry>
+      <title>Hexo搭建个人博客系列(二)：配置Hexo</title>
+      <link href="/2018/07/11/hexo2/"/>
+      <url>/2018/07/11/hexo2/</url>
+      <content type="html"><![CDATA[<h3 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a>选择主题</h3><h3 id="具体配置"><a href="#具体配置" class="headerlink" title="具体配置"></a>具体配置</h3>]]></content>
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Hexo搭建个人博客系列(一)：安装</title>
-      <link href="/2018/07/11/hexo/"/>
-      <url>/2018/07/11/hexo/</url>
-      <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><code>以下所有工作，环境默认Win10</code></p><ul><li>安装 <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></li><li>安装 <a href="http://cmder.net/" target="_blank" rel="noopener">Cmder完整版</a> 或者安装 <a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git for Window</a></li><li>注册 <a href="https://github.com/" target="_blank" rel="noopener">Github</a> 并新建Gitpage专用仓库</li><li>安装 <a href="https://hexo.io/" target="_blank" rel="noopener">安装Hexo</a></li></ul><h2 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h2><h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></h3><h3 id="安装-Cmder完整版-或者安装-Git-for-Window"><a href="#安装-Cmder完整版-或者安装-Git-for-Window" class="headerlink" title="安装 Cmder完整版 或者安装 Git for Window"></a>安装 <a href="http://cmder.net/" target="_blank" rel="noopener">Cmder完整版</a> 或者安装 <a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git for Window</a></h3><h3 id="注册Github-并新建仓库"><a href="#注册Github-并新建仓库" class="headerlink" title="注册Github 并新建仓库"></a>注册<a href="https://github.com/" target="_blank" rel="noopener">Github</a> 并新建仓库</h3>]]></content>
+      <link href="/2018/07/11/hexo1/"/>
+      <url>/2018/07/11/hexo1/</url>
+      <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作:"></a>准备工作:</h2><p><code>以下所有工作，环境默认Win10</code></p><ul><li>安装 <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></li><li>安装 <a href="http://cmder.net/" target="_blank" rel="noopener">Cmder完整版</a> 或者安装 <a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git for Window</a></li><li>注册 <a href="https://github.com/" target="_blank" rel="noopener">Github</a> 并新建Gitpage专用仓库</li><li>安装 <a href="https://hexo.io/" target="_blank" rel="noopener">安装Hexo</a></li></ul><h2 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤:"></a>具体步骤:</h2><h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></h3><p>进入官网下载稳定版本</p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/download-node.png" alt="download node.js"></p><p>安装很简单，一路next</p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/run-node.png" alt="run-node"></p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/install-node.png" alt="install-node"></p><p>安装完成之后，检测一下,出现下图版本提示，就是成功了</p><blockquote><p>node –version</p></blockquote><p><img src="http://pbmsgh6d0.bkt.clouddn.com/node-version.png" alt="node-version"></p><p>测试一下npm是否安装成功，npm是Node包管理工具，安装node的时候是默认集成的，出现下图提示就是成功的</p><blockquote><p>npm -v</p></blockquote><p><img src="http://pbmsgh6d0.bkt.clouddn.com/npm-version.png" alt="npm-version"></p><p>npm默认源在国外，速度很慢，可以换成国内淘宝镜像源</p><blockquote><p>npm config set registry <a href="http://registry.npm.taobao.org" target="_blank" rel="noopener">http://registry.npm.taobao.org</a></p></blockquote><h3 id="安装-Cmder完整版-或者安装-Git-for-Window"><a href="#安装-Cmder完整版-或者安装-Git-for-Window" class="headerlink" title="安装 Cmder完整版 或者安装 Git for Window"></a>安装 <a href="http://cmder.net/" target="_blank" rel="noopener">Cmder完整版</a> 或者安装 <a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git for Window</a></h3><h3 id="注册Github-并新建仓库"><a href="#注册Github-并新建仓库" class="headerlink" title="注册Github 并新建仓库"></a>注册<a href="https://github.com/" target="_blank" rel="noopener">Github</a> 并新建仓库</h3>]]></content>
       
       <categories>
           

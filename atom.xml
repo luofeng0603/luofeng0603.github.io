@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-07-11T05:50:34.871Z</updated>
+  <updated>2018-07-11T06:02:43.939Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo搭建个人博客系列(一)：安装</title>
-    <link href="http://www.luofengblog.com/2018/07/11/hexo/"/>
-    <id>http://www.luofengblog.com/2018/07/11/hexo/</id>
-    <published>2018-07-11T05:25:44.000Z</published>
-    <updated>2018-07-11T05:50:34.871Z</updated>
+    <title>Hexo搭建个人博客系列(二)：配置Hexo</title>
+    <link href="http://www.luofengblog.com/2018/07/11/hexo2/"/>
+    <id>http://www.luofengblog.com/2018/07/11/hexo2/</id>
+    <published>2018-07-11T06:01:10.000Z</published>
+    <updated>2018-07-11T06:02:43.939Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,33 @@
       
         
         
-          &lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;p&gt;&lt;code&gt;以下所有工作，环境默认Win10&lt;/code&gt;&lt;/p&gt;
+          &lt;h3 id=&quot;选择主题&quot;&gt;&lt;a href=&quot;#选择主题&quot; class=&quot;headerlink&quot; title=&quot;选择主题&quot;&gt;&lt;/a&gt;选择主题&lt;/h3&gt;&lt;h3 id=&quot;具体配置&quot;&gt;&lt;a href=&quot;#具体配置&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://www.luofengblog.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://www.luofengblog.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo搭建个人博客系列(一)：安装</title>
+    <link href="http://www.luofengblog.com/2018/07/11/hexo1/"/>
+    <id>http://www.luofengblog.com/2018/07/11/hexo1/</id>
+    <published>2018-07-11T05:25:44.000Z</published>
+    <updated>2018-07-11T07:31:32.251Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作:&quot;&gt;&lt;/a&gt;准备工作:&lt;/h2&gt;&lt;p&gt;&lt;code&gt;以下所有工作，环境默认Win10&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;安装 &lt;a
         

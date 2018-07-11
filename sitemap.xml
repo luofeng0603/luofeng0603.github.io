@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.luofengblog.com/2018/07/11/hexo/</loc>
+    <loc>http://www.luofengblog.com/2018/07/11/hexo1/</loc>
     
-    <lastmod>2018-07-11T05:50:34.871Z</lastmod>
+    <lastmod>2018-07-11T07:31:32.251Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.luofengblog.com/2018/07/11/hexo2/</loc>
+    
+    <lastmod>2018-07-11T06:02:43.939Z</lastmod>
     
   </url>
   

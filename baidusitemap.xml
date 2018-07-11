@@ -4,12 +4,32 @@
 
     
   <url>
-    <loc>http://www.luofengblog.com/2018/07/11/hexo/</loc>
-    <lastmod>2018-07-11T05:50:34.871Z</lastmod>
+    <loc>http://www.luofengblog.com/2018/07/11/hexo1/</loc>
+    <lastmod>2018-07-11T07:31:32.251Z</lastmod>
     <data>
         <display>
         <title>Hexo搭建个人博客系列(一)：安装</title>
         <pubTime>2018-07-11T05:25:44.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://www.luofengblog.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.luofengblog.com/2018/07/11/hexo2/</loc>
+    <lastmod>2018-07-11T06:02:43.939Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo搭建个人博客系列(二)：配置Hexo</title>
+        <pubTime>2018-07-11T06:01:10.000Z</pubTime>
         
         <tag>Hexo</tag>
          
