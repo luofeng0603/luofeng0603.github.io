@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.luofengblog.com/tags/index.html</loc>
+    
+    <lastmod>2018-07-11T01:53:35.899Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.luofengblog.com/categories/index.html</loc>
+    
+    <lastmod>2018-07-11T01:53:34.366Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.luofengblog.com/about/index.html</loc>
     
     <lastmod>2018-07-11T01:47:55.373Z</lastmod>
@@ -9,30 +23,9 @@
   </url>
   
   <url>
-    <loc>http://www.luofengblog.com/tags/index.html</loc>
-    
-    <lastmod>2018-07-11T01:33:46.531Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.luofengblog.com/categories/index.html</loc>
-    
-    <lastmod>2018-07-11T01:33:02.926Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.luofengblog.com/2018/07/10/ikbc-poker/</loc>
     
     <lastmod>2018-07-11T01:23:02.071Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.luofengblog.com/2018/06/27/about.html/</loc>
-    
-    <lastmod>2018-07-10T05:19:57.829Z</lastmod>
     
   </url>
   
