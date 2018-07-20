@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="JS中！的神奇作用&amp;emsp;&amp;emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。 &amp;emsp;&amp;emsp;!function ($){...}(jQuery) &amp;emsp;&amp;emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。 &amp;emsp;&amp;emsp;js中匿名函数的一般用法是下面两种：">
+<meta name="description" content="JS中！的神奇作用&amp;emsp;&amp;emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。 &amp;emsp;&amp;emsp;!function ($){...}(jQuery) &amp;emsp;&amp;emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。">
 <meta name="keywords" content="JS">
 <meta property="og:type" content="article">
 <meta property="og:title" content="js中!的神奇作用">
 <meta property="og:url" content="http://www.luofengblog.com/2018/07/20/js!/index.html">
 <meta property="og:site_name" content="落枫的博客">
-<meta property="og:description" content="JS中！的神奇作用&amp;emsp;&amp;emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。 &amp;emsp;&amp;emsp;!function ($){...}(jQuery) &amp;emsp;&amp;emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。 &amp;emsp;&amp;emsp;js中匿名函数的一般用法是下面两种：">
+<meta property="og:description" content="JS中！的神奇作用&amp;emsp;&amp;emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。 &amp;emsp;&amp;emsp;!function ($){...}(jQuery) &amp;emsp;&amp;emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-07-20T04:00:14.035Z">
+<meta property="og:updated_time" content="2018-07-20T04:02:21.865Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="js中!的神奇作用">
-<meta name="twitter:description" content="JS中！的神奇作用&amp;emsp;&amp;emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。 &amp;emsp;&amp;emsp;!function ($){...}(jQuery) &amp;emsp;&amp;emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。 &amp;emsp;&amp;emsp;js中匿名函数的一般用法是下面两种：">
+<meta name="twitter:description" content="JS中！的神奇作用&amp;emsp;&amp;emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。 &amp;emsp;&amp;emsp;!function ($){...}(jQuery) &amp;emsp;&amp;emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。">
 
 
 
@@ -425,9 +425,10 @@
       
         <h2 id="JS中！的神奇作用"><a href="#JS中！的神奇作用" class="headerlink" title="JS中！的神奇作用"></a>JS中！的神奇作用</h2><p>&emsp;&emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。</p>
 <p>&emsp;&emsp;<code>!function ($){...}(jQuery)</code></p>
-<p>&emsp;&emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。</p>
-<p>&emsp;&emsp;js中匿名函数的一般用法是下面两种：<br><a id="more"></a><br>        (function(){alert(‘a’);})();<br>        (function(){alert(‘a’);}());</p>
-<p>&emsp;&emsp;是用括号来实现的，如果你写成下面这样的话，是无法执行的：</p>
+<p>&emsp;&emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。<br><a id="more"></a><br>&emsp;&emsp;js中匿名函数的一般用法是下面两种：</p>
+<pre><code>(function(){alert(&apos;a&apos;);})();
+(function(){alert(&apos;a&apos;);}());
+</code></pre><p>&emsp;&emsp;是用括号来实现的，如果你写成下面这样的话，是无法执行的：</p>
 <pre><code>function(){alert(&apos;a&apos;)}();
 </code></pre><p>&emsp;&emsp;因为这个代码把js解释器搞混了，前面function(){alert(‘a’)} 是函数声明，要调用申明的函数必须使用<code>a();</code>这种形式，所以自然无法执行。</p>
 <p>&emsp;&emsp;而括号将一个函数声明转化成了一个表达式，解析器不再以函数声明的方式处理函数a，而是作为一个函数表达式处理。</p>

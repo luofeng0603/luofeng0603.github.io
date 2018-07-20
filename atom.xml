@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-07-20T04:00:14.035Z</updated>
+  <updated>2018-07-20T04:02:21.865Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -21,14 +21,13 @@
     <link href="http://www.luofengblog.com/2018/07/20/js!/"/>
     <id>http://www.luofengblog.com/2018/07/20/js!/</id>
     <published>2018-07-20T03:26:12.000Z</published>
-    <updated>2018-07-20T04:00:14.035Z</updated>
+    <updated>2018-07-20T04:02:21.865Z</updated>
     
     <summary type="html">
     
       &lt;h2 id=&quot;JS中！的神奇作用&quot;&gt;&lt;a href=&quot;#JS中！的神奇作用&quot; class=&quot;headerlink&quot; title=&quot;JS中！的神奇作用&quot;&gt;&lt;/a&gt;JS中！的神奇作用&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。&lt;/p&gt;
 &lt;p&gt;&amp;emsp;&amp;emsp;&lt;code&gt;!function ($){...}(jQuery)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;js中匿名函数的一般用法是下面两种：&lt;br&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。&lt;br&gt;
     
     </summary>
     
