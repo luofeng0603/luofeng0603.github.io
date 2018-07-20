@@ -416,28 +416,17 @@
 
       
         
-          
-            <h2 id="JS中！的神奇作用"><a href="#JS中！的神奇作用" class="headerlink" title="JS中！的神奇作用"></a>JS中！的神奇作用</h2><p>&emsp;&emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。</p>
+          <h2 id="JS中！的神奇作用"><a href="#JS中！的神奇作用" class="headerlink" title="JS中！的神奇作用"></a>JS中！的神奇作用</h2><p>&emsp;&emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。</p>
 <p>&emsp;&emsp;<code>!function ($){...}(jQuery)</code></p>
 <p>&emsp;&emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。</p>
-<p>&emsp;&emsp;js中匿名函数的一般用法是下面两种：</p>
-<pre><code>(function(){alert(&apos;a&apos;);})();
-(function(){alert(&apos;a&apos;);}());
-</code></pre><p>&emsp;&emsp;是用括号来实现的，如果你写成下面这样的话，是无法执行的：</p>
-<pre><code>function(){alert(&apos;a&apos;)}();
-</code></pre><p>&emsp;&emsp;因为这个代码把js解释器搞混了，前面function(){alert(‘a’)} 是函数声明，要调用申明的函数必须使用<code>a();</code>这种形式，所以自然无法执行。</p>
-<p>&emsp;&emsp;而括号将一个函数声明转化成了一个表达式，解析器不再以函数声明的方式处理函数a，而是作为一个函数表达式处理。</p>
-<p>&emsp;&emsp;所以<code>(function(){alert(&#39;a&#39;);})();</code>在js眼里等同于:</p>
-<pre><code>var a = function(){alert(&apos;a&apos;);};
-a();
-</code></pre><p>&emsp;&emsp;知道这个就好理解了，<strong>其实任何能让一个函数申明变成函数表达式的符号，都可以替代()的作用。</strong>! 就是其中一个，当然，聪明的你肯定也想到了，+-等等也是可以的。</p>
-<pre><code>!function(){alert(&apos;a&apos;);}();
-+function(){alert(&apos;a&apos;);}();
--function(){alert(&apos;a&apos;);}();
-~function(){alert(&apos;a&apos;);}();
-</code></pre><p>&emsp;&emsp;至于作者为什么要用!而不是其他符号呢？这个有人解释可能更多的是一种习惯问题，最正常的写法还是使用(),!可能让人看代码的时候更容易理解吧，另外可以少些一个字符（然而并没有什么卵用）。</p>
-
-          
+<p>&emsp;&emsp;js中匿名函数的一般用法是下面两种：<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/20/js!/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>

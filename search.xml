@@ -6,7 +6,7 @@
       <title>js中!的神奇作用</title>
       <link href="/2018/07/20/js!/"/>
       <url>/2018/07/20/js!/</url>
-      <content type="html"><![CDATA[<h2 id="JS中！的神奇作用"><a href="#JS中！的神奇作用" class="headerlink" title="JS中！的神奇作用"></a>JS中！的神奇作用</h2><p>&emsp;&emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。</p><p>&emsp;&emsp;<code>!function ($){...}(jQuery)</code></p><p>&emsp;&emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。</p><p>&emsp;&emsp;js中匿名函数的一般用法是下面两种：</p><pre><code>(function(){alert(&apos;a&apos;);})();(function(){alert(&apos;a&apos;);}());</code></pre><p>&emsp;&emsp;是用括号来实现的，如果你写成下面这样的话，是无法执行的：</p><pre><code>function(){alert(&apos;a&apos;)}();</code></pre><p>&emsp;&emsp;因为这个代码把js解释器搞混了，前面function(){alert(‘a’)} 是函数声明，要调用申明的函数必须使用<code>a();</code>这种形式，所以自然无法执行。</p><p>&emsp;&emsp;而括号将一个函数声明转化成了一个表达式，解析器不再以函数声明的方式处理函数a，而是作为一个函数表达式处理。</p><p>&emsp;&emsp;所以<code>(function(){alert(&#39;a&#39;);})();</code>在js眼里等同于:</p><pre><code>var a = function(){alert(&apos;a&apos;);};a();</code></pre><p>&emsp;&emsp;知道这个就好理解了，<strong>其实任何能让一个函数申明变成函数表达式的符号，都可以替代()的作用。</strong>! 就是其中一个，当然，聪明的你肯定也想到了，+-等等也是可以的。</p><pre><code>!function(){alert(&apos;a&apos;);}();+function(){alert(&apos;a&apos;);}();-function(){alert(&apos;a&apos;);}();~function(){alert(&apos;a&apos;);}();</code></pre><p>&emsp;&emsp;至于作者为什么要用!而不是其他符号呢？这个有人解释可能更多的是一种习惯问题，最正常的写法还是使用(),!可能让人看代码的时候更容易理解吧，另外可以少些一个字符（然而并没有什么卵用）。</p>]]></content>
+      <content type="html"><![CDATA[<h2 id="JS中！的神奇作用"><a href="#JS中！的神奇作用" class="headerlink" title="JS中！的神奇作用"></a>JS中！的神奇作用</h2><p>&emsp;&emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。</p><p>&emsp;&emsp;<code>!function ($){...}(jQuery)</code></p><p>&emsp;&emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。</p><p>&emsp;&emsp;js中匿名函数的一般用法是下面两种：<br><a id="more"></a><br>        (function(){alert(‘a’);})();<br>        (function(){alert(‘a’);}());</p><p>&emsp;&emsp;是用括号来实现的，如果你写成下面这样的话，是无法执行的：</p><pre><code>function(){alert(&apos;a&apos;)}();</code></pre><p>&emsp;&emsp;因为这个代码把js解释器搞混了，前面function(){alert(‘a’)} 是函数声明，要调用申明的函数必须使用<code>a();</code>这种形式，所以自然无法执行。</p><p>&emsp;&emsp;而括号将一个函数声明转化成了一个表达式，解析器不再以函数声明的方式处理函数a，而是作为一个函数表达式处理。</p><p>&emsp;&emsp;所以<code>(function(){alert(&#39;a&#39;);})();</code>在js眼里等同于:</p><pre><code>var a = function(){alert(&apos;a&apos;);};a();</code></pre><p>&emsp;&emsp;知道这个就好理解了，<strong>其实任何能让一个函数申明变成函数表达式的符号，都可以替代()的作用。</strong>! 就是其中一个，当然，聪明的你肯定也想到了，+-等等也是可以的。</p><pre><code>!function(){alert(&apos;a&apos;);}();+function(){alert(&apos;a&apos;);}();-function(){alert(&apos;a&apos;);}();~function(){alert(&apos;a&apos;);}();</code></pre><p>&emsp;&emsp;至于作者为什么要用!而不是其他符号呢？这个有人解释可能更多的是一种习惯问题，最正常的写法还是使用(),!可能让人看代码的时候更容易理解吧，另外可以少些一个字符（然而并没有什么卵用）。</p>]]></content>
       
       <categories>
           
@@ -69,17 +69,17 @@
   
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-    <entry>
       <title>关于我</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<p>&emsp;&emsp;其实我是不想写博客的，因为我实在是太忙了（哦不，太懒了），有了孩子之后，留给自己的时间就更少了，本来以前晚上回去还能弄弄电脑，提升一下自我，现在基本上回家抱抱孩子，跟他玩一会就10点多了，年纪大了，一到11点就困的不行，所以真的是有心无力呀。</p><p> &emsp;&emsp;不过话又说回来，时间就像那啥,挤挤总是有的，更何况现在工作中遇到的坑实在是太多了，很多坑往往之前跳过，现在遇到了就是想不起来，又跳进去了，长此以往，累的够呛，真的是需要有一个博客存放我跳坑的经验呀！</p><p> &emsp;&emsp;关于到底在哪里写博客这个问题真是让我纠结了半天，作为一个程序猿，必须要写出自己的逼格呀，所以我最后选了<a href="https://pages.github.com/" target="_blank" rel="noopener">GitPage</a> 来写博客。</p><p> &emsp;&emsp;原因无他，可以装X，WordPress简单是简单，关键是不能体现我的逼格呀，哈哈，所以折腾了几天用Hexo弄了这个博客，其中也是一把辛酸泪，好一顿折腾，具体去翻我的博文。</p><p> &emsp;&emsp;我的工作涉及略杂，主要是php，主写各种后台，也写微信小程序，有的时候也写前端页面，谈不上哪一方向精通，但是各类技术都略有涉猎，平常见到新知识有时间就学习一下，不针对某个方面。</p><p> &emsp;&emsp;目前除了写代码，大部分时间贡献出来给我的Swtich了，公司程序猿基本人手一个，玩的都是2017年神作塞尔达，哈哈，就问你6不6？来张合照秀一下。<br><img src="http://pbmsgh6d0.bkt.clouddn.com/IMG_20180621_131604.jpg" alt="公司程序猿的switch"><br> &emsp;&emsp;花了几百块钱买了luofengblog.com这个域名，我是想既然花钱了，是不是应该珍惜一点，多坚持一下，不想弄博客，就是怕自己坚持不了，免费的东西总觉得来之太易不太容易坚持，希望花点钱且写且坚持，顺便锻炼一下写作！</p>]]></content>
+    </entry>
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
