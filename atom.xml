@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-07-23T08:31:04.058Z</updated>
+  <updated>2018-07-23T08:32:08.458Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -21,17 +21,14 @@
     <link href="http://www.luofengblog.com/2018/07/23/frp/"/>
     <id>http://www.luofengblog.com/2018/07/23/frp/</id>
     <published>2018-07-23T07:36:00.000Z</published>
-    <updated>2018-07-23T08:31:04.058Z</updated>
+    <updated>2018-07-23T08:32:08.458Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;简单介绍&quot;&gt;&lt;a href=&quot;#简单介绍&quot; class=&quot;headerlink&quot; title=&quot;简单介绍&quot;&gt;&lt;/a&gt;简单介绍&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/fatedier/frp&quot; target=&quot;_blank&quot;
-        
-      
+      &lt;h2 id=&quot;简单介绍&quot;&gt;&lt;a href=&quot;#简单介绍&quot; class=&quot;headerlink&quot; title=&quot;简单介绍&quot;&gt;&lt;/a&gt;简单介绍&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/fatedier/frp&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Frp&lt;/a&gt; 是一个可用于内网穿透的高性能的反向代理应用，支持 tcp, udp, http, https 协议。&lt;/p&gt;
+&lt;p&gt;还有一个内网穿透工具叫做Ngrok，提供同样的功能，但是Frp使用更简单。&lt;/p&gt;
+&lt;h2 id=&quot;所需环境&quot;&gt;&lt;a href=&quot;#所需环境&quot; class=&quot;headerlink&quot; title=&quot;所需环境&quot;&gt;&lt;/a&gt;所需环境&lt;/h2&gt;&lt;p&gt;一台VPS(系统是Debian 8 64位)&lt;/p&gt;
+&lt;p&gt;一个域名(可选，最好有)，比如 abc.com&lt;/p&gt;
     
     </summary>
     
