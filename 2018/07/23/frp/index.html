@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo," />
+  <meta name="keywords" content="FRP,内网穿透,反向代理," />
 
 
 
@@ -81,30 +81,22 @@
 
 
 
-<meta name="description" content="准备工作:以下所有工作，环境默认Win10  安装 Node.js 安装 Cmder完整版 或者安装 Git for Window 注册 Github 并新建Gitpage专用仓库 安装 安装Hexo">
-<meta name="keywords" content="Hexo">
+<meta name="description" content="简单介绍Frp 是一个可用于内网穿透的高性能的反向代理应用，支持 tcp, udp, http, https 协议。 还有一个内网穿透工具叫做Ngrok，提供同样的功能，但是Frp使用更简单。 所需环境一台VPS(系统是Debian 8 64位) 一个域名(可选，最好有)，比如 abc.com 配置步骤域名设置[可选]域名配置是可选的，不配置也没关系，但是为了方便访问，还是配置一个比较好，去域名商">
+<meta name="keywords" content="FRP,内网穿透,反向代理">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo搭建个人博客系列(一)：安装">
-<meta property="og:url" content="http://www.luofengblog.com/2018/07/11/hexo1/index.html">
+<meta property="og:title" content="内网穿透利器FRP">
+<meta property="og:url" content="http://www.luofengblog.com/2018/07/23/frp/index.html">
 <meta property="og:site_name" content="落枫的博客">
-<meta property="og:description" content="准备工作:以下所有工作，环境默认Win10  安装 Node.js 安装 Cmder完整版 或者安装 Git for Window 注册 Github 并新建Gitpage专用仓库 安装 安装Hexo">
+<meta property="og:description" content="简单介绍Frp 是一个可用于内网穿透的高性能的反向代理应用，支持 tcp, udp, http, https 协议。 还有一个内网穿透工具叫做Ngrok，提供同样的功能，但是Frp使用更简单。 所需环境一台VPS(系统是Debian 8 64位) 一个域名(可选，最好有)，比如 abc.com 配置步骤域名设置[可选]域名配置是可选的，不配置也没关系，但是为了方便访问，还是配置一个比较好，去域名商">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/download-node.png">
-<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/run-node.png">
-<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/install-node.png">
-<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/node-version.png">
-<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/npm-version.png">
-<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/download-cmder.png">
-<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/cmder-dir.png">
-<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/cmder-home.png">
-<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/cmder-path.png">
-<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/win-rightclick.png">
-<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/cmder-rightmouse.png">
-<meta property="og:updated_time" content="2018-07-11T09:28:00.457Z">
+<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/frp-dir.png">
+<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/frp-win.png">
+<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/frp-win-success.png">
+<meta property="og:updated_time" content="2018-07-23T08:31:04.058Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo搭建个人博客系列(一)：安装">
-<meta name="twitter:description" content="准备工作:以下所有工作，环境默认Win10  安装 Node.js 安装 Cmder完整版 或者安装 Git for Window 注册 Github 并新建Gitpage专用仓库 安装 安装Hexo">
-<meta name="twitter:image" content="http://pbmsgh6d0.bkt.clouddn.com/download-node.png">
+<meta name="twitter:title" content="内网穿透利器FRP">
+<meta name="twitter:description" content="简单介绍Frp 是一个可用于内网穿透的高性能的反向代理应用，支持 tcp, udp, http, https 协议。 还有一个内网穿透工具叫做Ngrok，提供同样的功能，但是Frp使用更简单。 所需环境一台VPS(系统是Debian 8 64位) 一个域名(可选，最好有)，比如 abc.com 配置步骤域名设置[可选]域名配置是可选的，不配置也没关系，但是为了方便访问，还是配置一个比较好，去域名商">
+<meta name="twitter:image" content="http://pbmsgh6d0.bkt.clouddn.com/frp-dir.png">
 
 
 
@@ -134,13 +126,13 @@
 
 
 
-  <link rel="canonical" href="http://www.luofengblog.com/2018/07/11/hexo1/"/>
+  <link rel="canonical" href="http://www.luofengblog.com/2018/07/23/frp/"/>
 
 
 
 
 
-  <title>Hexo搭建个人博客系列(一)：安装 | 落枫的博客</title>
+  <title>内网穿透利器FRP | 落枫的博客</title>
   
 
 
@@ -325,7 +317,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.luofengblog.com/2018/07/11/hexo1/">
+    <link itemprop="mainEntityOfPage" href="http://www.luofengblog.com/2018/07/23/frp/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="落枫">
@@ -342,7 +334,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hexo搭建个人博客系列(一)：安装</h1>
+          <h1 class="post-title" itemprop="name headline">内网穿透利器FRP</h1>
         
 
         <div class="post-meta">
@@ -354,8 +346,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-11T13:25:44+08:00">
-                2018-07-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-23T15:36:00+08:00">
+                2018-07-23
               </time>
             
 
@@ -377,8 +369,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">Hexo</span>
+                  <a href="/categories/工具/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
                   </a>
                 </span>
 
@@ -395,8 +387,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/07/11/hexo1/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/07/11/hexo1/" itemprop="commentsCount"></span>
+                <a href="/2018/07/23/frp/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/07/23/frp/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -404,7 +396,7 @@
 
           
           
-             <span id="/2018/07/11/hexo1/" class="leancloud_visitors" data-flag-title="Hexo搭建个人博客系列(一)：安装">
+             <span id="/2018/07/23/frp/" class="leancloud_visitors" data-flag-title="内网穿透利器FRP">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -435,52 +427,48 @@
       
 
       
-        <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作:"></a>准备工作:</h2><p><code>以下所有工作，环境默认Win10</code></p>
-<ul>
-<li>安装 <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></li>
-<li>安装 <a href="http://cmder.net/" target="_blank" rel="noopener">Cmder完整版</a> 或者安装 <a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git for Window</a></li>
-<li>注册 <a href="https://github.com/" target="_blank" rel="noopener">Github</a> 并新建Gitpage专用仓库</li>
-<li>安装 <a href="https://hexo.io/" target="_blank" rel="noopener">安装Hexo</a></li>
-</ul>
-<a id="more"></a>
-<h2 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤:"></a>具体步骤:</h2><h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></h3><p>进入官网下载稳定版本</p>
-<p><img src="http://pbmsgh6d0.bkt.clouddn.com/download-node.png" alt="download node.js"></p>
-<p>安装很简单，一路next</p>
-<p><img src="http://pbmsgh6d0.bkt.clouddn.com/run-node.png" alt="run-node"></p>
-<p><img src="http://pbmsgh6d0.bkt.clouddn.com/install-node.png" alt="install-node"></p>
-<p>安装完成之后，检测一下,出现下图版本提示，就是成功了</p>
-<blockquote>
-<p>node –version</p>
-</blockquote>
-<p><img src="http://pbmsgh6d0.bkt.clouddn.com/node-version.png" alt="node-version"></p>
-<p>测试一下npm是否安装成功，npm是Node包管理工具，安装node的时候是默认集成的，出现下图提示就是成功的</p>
-<blockquote>
-<p>npm -v</p>
-</blockquote>
-<p><img src="http://pbmsgh6d0.bkt.clouddn.com/npm-version.png" alt="npm-version"></p>
-<p>npm默认源在国外，速度很慢，可以换成国内淘宝镜像源</p>
-<blockquote>
-<p>npm config set registry <a href="http://registry.npm.taobao.org" target="_blank" rel="noopener">http://registry.npm.taobao.org</a></p>
-</blockquote>
-<h3 id="安装-Cmder完整版-或者安装-Git-for-Window"><a href="#安装-Cmder完整版-或者安装-Git-for-Window" class="headerlink" title="安装 Cmder完整版 或者安装 Git for Window"></a>安装 <a href="http://cmder.net/" target="_blank" rel="noopener">Cmder完整版</a> 或者安装 <a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git for Window</a></h3><p><code>Cmder 是Windows下一款很好的命令行工具，用来替代Windows自带的cmd是再好不过了，支持Linux下的绝大部分命令，完整版集成了git，方便使用。</code></p>
-<p>官网下载<br><img src="http://pbmsgh6d0.bkt.clouddn.com/download-cmder.png" alt="download-cmder"></p>
-<p>无需安装，解压之后即可使用<br><img src="http://pbmsgh6d0.bkt.clouddn.com/cmder-dir.png" alt="cmder-dir"></p>
-<p>[可选操作]：</p>
-<ol>
-<li><p>添加至环境变量：Win + R 输入cmder 即可打开</p>
-<p> <img src="http://pbmsgh6d0.bkt.clouddn.com/cmder-home.png" alt="cmder-home"></p>
-<p> <img src="http://pbmsgh6d0.bkt.clouddn.com/cmder-path.png" alt="cmder-path"></p>
-</li>
-<li><p>添加至右键菜单：右击 Windows 图标，选择命令提示符(管理员)</p>
-<p> <img src="http://pbmsgh6d0.bkt.clouddn.com/win-rightclick.png" alt="win-rightclick"></p>
-<p> 进入cmder目录<br> 输入：</p>
-<blockquote>
-<p>Cmder.exe /REGISTER ALL</p>
-</blockquote>
-<p> <img src="http://pbmsgh6d0.bkt.clouddn.com/cmder-rightmouse.png" alt="cmder-rightmouse"></p>
-</li>
-</ol>
-<h3 id="注册Github-并新建仓库"><a href="#注册Github-并新建仓库" class="headerlink" title="注册Github 并新建仓库"></a>注册<a href="https://github.com/" target="_blank" rel="noopener">Github</a> 并新建仓库</h3>
+        <h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p><a href="https://github.com/fatedier/frp" target="_blank" rel="noopener">Frp</a> 是一个可用于内网穿透的高性能的反向代理应用，支持 tcp, udp, http, https 协议。</p>
+<p>还有一个内网穿透工具叫做Ngrok，提供同样的功能，但是Frp使用更简单。</p>
+<h2 id="所需环境"><a href="#所需环境" class="headerlink" title="所需环境"></a>所需环境</h2><p>一台VPS(系统是Debian 8 64位)</p>
+<p>一个域名(可选，最好有)，比如 abc.com</p>
+<h2 id="配置步骤"><a href="#配置步骤" class="headerlink" title="配置步骤"></a>配置步骤</h2><h3 id="域名设置-可选"><a href="#域名设置-可选" class="headerlink" title="域名设置[可选]"></a>域名设置[可选]</h3><p>域名配置是可选的，不配置也没关系，但是为了方便访问，还是配置一个比较好，去域名商控制台绑定一个二级域名就可以，假设域名叫做abc.com, 要设置的二级域名叫做frp.abc.com,新增两条A记录：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs undefined">A   frp.abc.com     **.**.**.** (ip)<br>A   *.frp.abc.com   **.**.**.** (ip)<br></code></pre></td></tr></table></figure>
+<h3 id="服务端配置"><a href="#服务端配置" class="headerlink" title="服务端配置"></a>服务端配置</h3><p><a href="https://github.com/fatedier/frp/releases" target="_blank" rel="noopener">下载地址</a> 找一个适合自己vps的安装包，我选择的是<code>frp_0.20.0_linux_amd64.tar.gz</code></p>
+<p>复制安装包的地址，在vps上输入：</p>
+<p><code>wget https://github.com/fatedier/frp/releases/download/v0.20.0/frp_0.20.0_linux_arm64.tar.gz</code> 进行安装包的下载</p>
+<p>然后解压缩：</p>
+<p><code>tar -zxvf frp_0.20.0_linux_arm64.tar.gz</code></p>
+<p><code>cd frp_0.20.0_linux_arm64.tar.gz</code></p>
+<p>目录里面应该有这些内容：</p>
+<p><img src="http://pbmsgh6d0.bkt.clouddn.com/frp-dir.png" alt="Frp"></p>
+<p>配置 frps.ini 文件</p>
+<p><code>vim frps.ini</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs undefined">[common]<br>bind_port = 7000<br>vhost_http_port = 80<br>vhost_https_port = 443<br>dashboard_port = 8088<br>dashboard_user = 用户名<br>dashboard_pwd = 密码<br>privilege_token = token<br>log_file = ./frps.log<br>log_level = info<br>[web1]<br>type = http<br>custom_domains = web1.abc.com<br>auth_token = token<br>~<br></code></pre></td></tr></table></figure>
+<p>用户名、密码、token自行填写,[web1] 名字任意，但是客户端配置的时候必须跟服务器是一致的，这里写web1的话，客户端配置中也得写web1，custom_domains 也任意，同理服务端和客户端也必须一致。</p>
+<p>启动服务：</p>
+<p><code>sudo nohup ./frps -c ./frps.ini &amp;</code></p>
+<p>因为vhost_http_port 和 vhost_https_port 我们绑定的是1024 以下的端口，所以必须要有root权限，否则会报permission deney的错误。</p>
+<p>开启自启动：</p>
+<p><code>vim /etc/rc.local</code></p>
+<p>在 exit 0 之前增加：</p>
+<p><code>sudo nohup /home/luofeng0603/frp_0.20.0_linux_amd64/frps -c /home/luofeng0603/frp_0.20.0_linux_amd64/frps.ini &amp;</code></p>
+<h3 id="客户端配置"><a href="#客户端配置" class="headerlink" title="客户端配置"></a>客户端配置</h3><p>还是去上面那个下载地址，选择适合自己的客户端，比如我的windows我下的这个：</p>
+<p><code>frp_0.20.0_windows_amd64.zip</code></p>
+<p>解压缩：</p>
+<p>目录里面应该是这些内容：</p>
+<p><img src="http://pbmsgh6d0.bkt.clouddn.com/frp-win.png" alt="frp-win">;</p>
+<p>编辑 frpc.ini 文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs undefined">[common]<br>server_addr = VPS的IP<br>server_port = 7000<br>privilege_token = 服务端token<br>login_fail_exit = false<br><br>[ssh]<br>type = tcp<br>local_ip = 127.0.0.1<br>local_port = 22<br>remote_port = 6000<br><br>[web1]<br>type = http<br>local_port = 80<br>custom_domains = web1.frp.abc.com<br>auth_token = web1的token<br></code></pre></td></tr></table></figure>
+<p>server_addr：   填写vips的IP地址</p>
+<p>privilege_token： 填写服务端token</p>
+<p>web1：  名字和服务端一致</p>
+<p>local_port：    填写你本地web服务器的端口</p>
+<p>cutom_domains：     和服务端一致</p>
+<p>auth_token：        和服务端一致</p>
+<p>配置完毕，进行启动，在frp目录中打开windows命令行工具：</p>
+<p><img src="http://pbmsgh6d0.bkt.clouddn.com/frp-win-success.png" alt="frp-win-success">;</p>
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>启动本地Wamp服务器，在浏览器中输入：<code>web1.frp.abc.com</code>  成功打开wamp Info页面。</p>
+
       
     </div>
     
@@ -497,7 +485,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+            <a href="/tags/FRP/" rel="tag"># FRP</a>
+          
+            <a href="/tags/内网穿透/" rel="tag"># 内网穿透</a>
+          
+            <a href="/tags/反向代理/" rel="tag"># 反向代理</a>
           
         </div>
       
@@ -510,8 +502,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/10/ikbc-poker/" rel="next" title="IKBC POKER 最适合程序员的键位编程">
-                <i class="fa fa-chevron-left"></i> IKBC POKER 最适合程序员的键位编程
+              <a href="/2018/07/21/respond/" rel="next" title="html5shiv.js和respond.js">
+                <i class="fa fa-chevron-left"></i> html5shiv.js和respond.js
               </a>
             
           </div>
@@ -519,10 +511,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/07/20/js!/" rel="prev" title="js中!的神奇作用">
-                js中!的神奇作用 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -672,7 +660,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作"><span class="nav-number">1.</span> <span class="nav-text">准备工作:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#具体步骤"><span class="nav-number">2.</span> <span class="nav-text">具体步骤:</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装-Node-js"><span class="nav-number">2.1.</span> <span class="nav-text">安装 Node.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装-Cmder完整版-或者安装-Git-for-Window"><span class="nav-number">2.2.</span> <span class="nav-text">安装 Cmder完整版 或者安装 Git for Window</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#注册Github-并新建仓库"><span class="nav-number">2.3.</span> <span class="nav-text">注册Github 并新建仓库</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#简单介绍"><span class="nav-number">1.</span> <span class="nav-text">简单介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#所需环境"><span class="nav-number">2.</span> <span class="nav-text">所需环境</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置步骤"><span class="nav-number">3.</span> <span class="nav-text">配置步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#域名设置-可选"><span class="nav-number">3.1.</span> <span class="nav-text">域名设置[可选]</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#服务端配置"><span class="nav-number">3.2.</span> <span class="nav-text">服务端配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#客户端配置"><span class="nav-number">3.3.</span> <span class="nav-text">客户端配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#测试"><span class="nav-number">3.4.</span> <span class="nav-text">测试</span></a></li></ol></li></ol></div>
             
 
           </div>
