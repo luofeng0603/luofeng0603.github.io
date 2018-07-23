@@ -92,7 +92,7 @@
 <meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/frp-dir.png">
 <meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/frp-win.png">
 <meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/frp-win-success.png">
-<meta property="og:updated_time" content="2018-07-23T08:34:56.827Z">
+<meta property="og:updated_time" content="2018-07-23T08:39:33.152Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="内网穿透利器FRP">
 <meta name="twitter:description" content="简单介绍Frp 是一个可用于内网穿透的高性能的反向代理应用，支持 tcp, udp, http, https 协议。 还有一个内网穿透工具叫做Ngrok，提供同样的功能，但是Frp使用更简单。 所需环境一台VPS(我的是Google VM实例，系统Debian 8 64位) 一个域名,可选，最好有比如 abc.com，要不然得用ip来进行访问了">
@@ -444,7 +444,7 @@
 <p><img src="http://pbmsgh6d0.bkt.clouddn.com/frp-dir.png" alt="Frp"></p>
 <p>配置 frps.ini 文件</p>
 <p><code>vim frps.ini</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs undefined">[common]<br>bind_port = 7000<br>vhost_http_port = 80<br>vhost_https_port = 443<br>dashboard_port = 8088<br>dashboard_user = 用户名<br>dashboard_pwd = 密码<br>privilege_token = token<br>log_file = ./frps.log<br>log_level = info<br>[web1]<br>type = http<br>custom_domains = web1.abc.com<br>auth_token = token<br>~<br></code></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs undefined">[common]<br>bind_port = 7000<br>vhost_http_port = 80<br>vhost_https_port = 443<br>dashboard_port = 8088<br>dashboard_user = 用户名<br>dashboard_pwd = 密码<br>privilege_token = token<br>log_file = ./frps.log<br>log_level = info<br>[web1]<br>type = http<br>custom_domains = web1.abc.com<br>auth_token = token<br></code></pre></td></tr></table></figure>
 <p>用户名、密码、token自行填写,[web1] 名字任意，但是客户端配置的时候必须跟服务器是一致的，这里写web1的话，客户端配置中也得写web1，custom_domains 也任意，同理服务端和客户端也必须一致。</p>
 <p>启动服务：</p>
 <p><code>sudo nohup ./frps -c ./frps.ini &amp;</code></p>
@@ -457,7 +457,7 @@
 <p><code>frp_0.20.0_windows_amd64.zip</code></p>
 <p>解压缩：</p>
 <p>目录里面应该是这些内容：</p>
-<p><img src="http://pbmsgh6d0.bkt.clouddn.com/frp-win.png" alt="frp-win">;</p>
+<p><img src="http://pbmsgh6d0.bkt.clouddn.com/frp-win.png" alt="frp-win"></p>
 <p>编辑 frpc.ini 文件</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs undefined">[common]<br>server_addr = VPS的IP<br>server_port = 7000<br>privilege_token = 服务端token<br>login_fail_exit = false<br><br>[ssh]<br>type = tcp<br>local_ip = 127.0.0.1<br>local_port = 22<br>remote_port = 6000<br><br>[web1]<br>type = http<br>local_port = 80<br>custom_domains = web1.frp.abc.com<br>auth_token = web1的token<br></code></pre></td></tr></table></figure>
 <p>server_addr：   填写vips的IP地址</p>
