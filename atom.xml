@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-07-23T08:39:33.152Z</updated>
+  <updated>2018-07-24T05:38:21.744Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>揭秘“合成氢动力水”</title>
+    <link href="http://www.luofengblog.com/2018/07/24/qingdonglishui/"/>
+    <id>http://www.luofengblog.com/2018/07/24/qingdonglishui/</id>
+    <published>2018-07-24T04:39:07.000Z</published>
+    <updated>2018-07-24T05:38:21.744Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近朋友圈合成氢能源挺火的，我是不太相信的，所以特地去查了一些资料。当我查到入会费2980成为代理之后才可购买时，我就呵呵了，我又查了一下他们的盈利机制:&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs undefined&quot;&gt;一：全返奖励一个人都不推，交2980，返还2980，每日以积分的形式释放。推一个人，返还2980乘以2推荐两个人，返还2980乘以4推荐三个人，返还2980乘以6，6倍截止&lt;br&gt;&lt;br&gt;二：晋级奖励一个人只需推荐两个人，如A和B，当AB两条线累计各达到六人，每月拿五千七固定工资。当AB两条线累计各达到十八人，每月拿一万一千七百固定工资。以此类推，最高每月拿117万。&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="杂谈" scheme="http://www.luofengblog.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="合成氢动力水" scheme="http://www.luofengblog.com/tags/%E5%90%88%E6%88%90%E6%B0%A2%E5%8A%A8%E5%8A%9B%E6%B0%B4/"/>
+    
+      <category term="汽车新型燃料" scheme="http://www.luofengblog.com/tags/%E6%B1%BD%E8%BD%A6%E6%96%B0%E5%9E%8B%E7%87%83%E6%96%99/"/>
+    
+  </entry>
   
   <entry>
     <title>内网穿透利器FRP</title>
