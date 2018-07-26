@@ -3,6 +3,33 @@
   
     
     <entry>
+      <title>树莓派配合Openmediavault搭建媒体中心</title>
+      <link href="/2018/07/26/openmediavault/"/>
+      <url>/2018/07/26/openmediavault/</url>
+      <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><a href="https://www.openmediavault.org/" target="_blank" rel="noopener">OpenMediaVault</a>，是一个开源的基于Debian Linux的下一代网络附加存储(NAS)解决方案。</p><p>树莓派本身功耗小，用来安装这个再好不过。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="安装-Openmediavault-系统"><a href="#安装-Openmediavault-系统" class="headerlink" title="安装 Openmediavault 系统"></a>安装 Openmediavault 系统</h3><p>点击 <a href="https://sourceforge.net/projects/openmediavault/files/" target="_blank" rel="noopener">这里</a> 进行下载系统，我们选择 <code>Raspberry Pi images</code> 文件夹，下载这个：<code>OMV_4_Raspberry_Pi_2_3_3Plus.img.xz</code> </p><p>然后在下面的文档里面我们看到：</p><a id="more"></a><p><code>Do not decompress but write the .img.xz image in a single step using Etcher to SD card: https://etcher.io</code></p><p>意思是不要解压，使用 <code>https://etcher.io</code>下载的工具烧录SD卡。</p><p>这个工具打开界面就是这样，选择你刚刚下载的 .xz 文件，然后选择你的SD卡，点击 Flash 就好了，比较慢，大概要十分钟。</p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/etcher.png" alt="Etcher"></p><h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><p>把SD卡插上树莓派，插上网线！插上网线！插上网线！重要的事情说三遍，默认不支持无线连接，所以一定要插网线，要不然获取不到IP，连上显示器，你会看到界面有一行显示了本机IP，记下来。然后发现报了好几个错误：</p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/ovm-err.png" alt="ovm-err">;</p><p>前面的错误不用管，重点是看到 <code>Failed to start A high performance web server and a reverse proxy</code> Nginx 启动失败了，这是因为Nginx配置中有个地方有问题，我们需要手动修改一下。</p><p>使用 <code>root/openmediavault</code> 登录进去</p><p><code>vim /etc/nginx/sites-enable/openmediavault-webgui</code></p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/ovm-nginx-err.png" alt="ovm-nginx-err"></p><p>把 <code>listen []:80 ipv6only=off</code> 变成：</p><p><code>listen 80 ipv6only=off</code> 就可以了。</p><p><code>systemctl restart nginx</code> 重启一下Nginx 就可以了。</p><h3 id="后台管理"><a href="#后台管理" class="headerlink" title="后台管理"></a>后台管理</h3><p>在浏览器中（一定要非IE内核的，Firefox、Chrom、Safari、或者国产浏览器的极速模式）输入树莓派的IP，即可打开后台，如果不知道IP的话，安卓有一款局域网扫描软件安利一下：Find，google 商品可以下载,扫一下就能看到局域网中Raspberry的IP</p><p>PS：管理后台对安卓手机（测试：小米6自带浏览器和QQ浏览器）不太友好，要修改一下安卓浏览器的UA标识（在浏览器设置里），改成iPAD就行了</p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/ovm-login.png" alt="ovm-login"></p><p>用户名和密码默认是 <code>admin/openmediavault</code></p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/ovm-main.jpg" alt="ovm-main"></p><h4 id="常规配置"><a href="#常规配置" class="headerlink" title="常规配置"></a>常规配置</h4><p>设置一下自动登出时间，Web管理员密码</p><h4 id="日期和时间"><a href="#日期和时间" class="headerlink" title="日期和时间"></a>日期和时间</h4><p>设置一下时区，选择 Asia/Shanghai</p><h4 id="插件和-OMV-Extras"><a href="#插件和-OMV-Extras" class="headerlink" title="插件和 OMV-Extras"></a>插件和 OMV-Extras</h4><p>OMV-Extras 我开了下面这几个：</p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/ovm-extras.png" alt="omv-extras"></p><p>在插件中 点击 <code>检查</code> 先更新一下，然后根据自己的需要选择性的安装就好了。</p><p>我主要安装的几个插件：</p><ul><li><p>Teamviewer<br>&emsp;&emsp;如果ssh有问题挂了，这是能连接你树莓派的最后方式，一定要装，虽然速度慢的想骂人，开启之后有一个id，然后你配置一下密码，其他Teamviewer客户端 输入ID和密码之后就可以连接了，还是挺方便的</p></li><li><p>transmissionbt<br>&emsp;&emsp;Bt下载的，还有一个downloader下载插件不太好使，没有下载速率和进度，所以我不太用，Bt下载速率跟种子有很大关系，国内的我找过好多种子都没速度，安利一下一个BT站点：<a href="https://thepiratebay.org/" target="_blank" rel="noopener">海盗湾</a> 还是可以的</p></li><li><p>Plex<br>&emsp;&emsp;家庭影音媒体系统，这个非常好使，自动的帮你匹配电影海报等信息，展示的方式跟各大视频APP差不多，而且同一账号多端可以共享（TV版的好像要花钱，不过可以Kodi+plex插件替代）</p></li></ul><p>其他插件，看你自己的需求了。</p><h4 id="磁盘"><a href="#磁盘" class="headerlink" title="磁盘"></a>磁盘</h4><p>首先进行磁盘挂载，我的是NTFS的1T硬盘，系统能识别，但是无法挂载，挂载的时候报错，提示 <code>没有fuse这个模块</code>,查了一下发现是 内核的问题，需要升级树莓派内核。</p><p>使用下面的语句解决（速度相当慢）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs undefined">sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel <br>sudo apt-get update<br></code></pre></td></tr></table></figure><p>好了然后可以正常挂载了。</p><p>选中磁盘可以进行相关属性配置：</p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/ovm-disk.png" alt="ovm-disk"></p><h4 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h4><p>BitTorrent 下载要配置一下，主要设置<code>Files and Locations</code> 设置一下下载目录就可以了。下载主界面要打开BitTorrent-&gt;RPC-&gt;Show</p><p>可以手动上传种子或者直接输入种子url或磁力链接，如果有peers的话，下载速度还是可以的。</p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/bittorrent.png" alt="bittorrent"></p><h4 id="Plex设置"><a href="#Plex设置" class="headerlink" title="Plex设置"></a>Plex设置</h4><p>打开 Plex多媒体服务，设置一下硬盘，其他设置要进入plex管理中心配置，首次进入要先申请一个账号，使用邮箱账户申请（其他账号要FQ嘛），登录进行简单的配置就可以了</p><p>要注意的是它的电影目录、电视剧目录、音乐目录都要分开，不要把电视剧和电影放在一个目录，要不然就不能正确显示海报了，因为plex获取电影海报和电视剧海报的服务器好像是不同的，所以我们在下载的时候最好就区分好，电影下载到电影的目录，电视剧下载到电视剧目录。</p><p>电视上安装Kodi+Plex插件 就可以愉快的看电影和电视剧了，悠哉！</p><h2 id="外部访问"><a href="#外部访问" class="headerlink" title="外部访问"></a>外部访问</h2><p>上面配完之后，只能在局域网内进行操作，当然不能仅限于此，我们也要能在外网访问才对嘛。<br>上一篇文章我已经写了如何配置FRP进行内网穿透，树莓派的配置也同理。（我假设你服务端都已经配置好了）</p><p>首页看一下树莓派的系统是几位的：</p><p><code>getconfig LONG_BIT</code> 显示32，那我们就下32位的包。</p><p><code>frp_0.20.0_linux_arm.tar.gz</code></p><p>配置不多讲了，<code>./frpc -c ./frpc.ini</code> 启动之后，便可以在外网访问OVM的管理后台了。</p><p><img src="http://pbmsgh6d0.bkt.clouddn.com/ovm-frp.png" alt="ovm-frp"></p><p>PS：如果你的VPS服务器有防火墙的话，记得去开放一下端口哦！！</p><p>Plex的端口开放有的多，具体的Frp配置，看我下面的:</p><p>服务端：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs undefined">[range:flextcp]<br>type = tcp<br>listen_port = 32400,32443,32469<br>[range:flexudp]<br>type = udp<br>listen_port = 1900,5353,32410,32412-32414<br></code></pre></td></tr></table></figure><p>客户端：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs undefined">[range:flextcp]                          <br>type = tcp                               <br>local_ip = 127.0.0.1                     <br>local_port = 32400,32443,32469           <br>remote_port = 32400,32443,32469          <br>                                         <br>[range:flexudp]                          <br>type = udp                               <br>local_ip = 127.0.0.1                     <br>local_port = 1900,5353,32410,32412-32414 <br>remote_port = 1900,5353,32410,32412-32414<br></code></pre></td></tr></table></figure>]]></content>
+      
+      <categories>
+          
+          <category> 树莓派 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 树莓派 </tag>
+            
+            <tag> openmediavault </tag>
+            
+            <tag> 媒体中心 </tag>
+            
+            <tag> NAS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>揭秘“合成氢动力水”</title>
       <link href="/2018/07/24/qingdonglishui/"/>
       <url>/2018/07/24/qingdonglishui/</url>
@@ -138,17 +165,17 @@
   
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-    <entry>
       <title>关于我</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<p>&emsp;&emsp;其实我是不想写博客的，因为我实在是太忙了（哦不，太懒了），有了孩子之后，留给自己的时间就更少了，本来以前晚上回去还能弄弄电脑，提升一下自我，现在基本上回家抱抱孩子，跟他玩一会就10点多了，年纪大了，一到11点就困的不行，所以真的是有心无力呀。</p><p> &emsp;&emsp;不过话又说回来，时间就像那啥,挤挤总是有的，更何况现在工作中遇到的坑实在是太多了，很多坑往往之前跳过，现在遇到了就是想不起来，又跳进去了，长此以往，累的够呛，真的是需要有一个博客存放我跳坑的经验呀！</p><p> &emsp;&emsp;关于到底在哪里写博客这个问题真是让我纠结了半天，作为一个程序猿，必须要写出自己的逼格呀，所以我最后选了<a href="https://pages.github.com/" target="_blank" rel="noopener">GitPage</a> 来写博客。</p><p> &emsp;&emsp;原因无他，可以装X，WordPress简单是简单，关键是不能体现我的逼格呀，哈哈，所以折腾了几天用Hexo弄了这个博客，其中也是一把辛酸泪，好一顿折腾，具体去翻我的博文。</p><p> &emsp;&emsp;我的工作涉及略杂，主要是php，主写各种后台，也写微信小程序，有的时候也写前端页面，谈不上哪一方向精通，但是各类技术都略有涉猎，平常见到新知识有时间就学习一下，不针对某个方面。</p><p> &emsp;&emsp;目前除了写代码，大部分时间贡献出来给我的Swtich了，公司程序猿基本人手一个，玩的都是2017年神作塞尔达，哈哈，就问你6不6？来张合照秀一下。<br><img src="http://pbmsgh6d0.bkt.clouddn.com/IMG_20180621_131604.jpg" alt="公司程序猿的switch"><br> &emsp;&emsp;花了几百块钱买了luofengblog.com这个域名，我是想既然花钱了，是不是应该珍惜一点，多坚持一下，不想弄博客，就是怕自己坚持不了，免费的东西总觉得来之太易不太容易坚持，希望花点钱且写且坚持，顺便锻炼一下写作！</p>]]></content>
+    </entry>
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
