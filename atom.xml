@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-07-28T03:27:59.362Z</updated>
+  <updated>2018-07-28T03:29:17.075Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -21,26 +21,22 @@
     <link href="http://www.luofengblog.com/2018/07/28/qiniu/"/>
     <id>http://www.luofengblog.com/2018/07/28/qiniu/</id>
     <published>2018-07-28T02:47:49.000Z</published>
-    <updated>2018-07-28T03:27:59.362Z</updated>
+    <updated>2018-07-28T03:29:17.075Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h2 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h2&gt;&lt;p&gt;Hexo写博客，贴图是个比较DT的问题，MarkDown语法放置图片本来就不是很方便，而且图片全放Gitpage的话，太占空间，而且万一以后要迁移博客的话，这么多图片占的空间大，迁移费时。&lt;/p&gt;
+&lt;p&gt;所以用七牛云存储来放置博客图片还是比较稳妥的，个人用户每个月有免费10G的空间，写写博客的话也完全够了的。&lt;/p&gt;
+&lt;h2 id=&quot;具体步骤：&quot;&gt;&lt;a href=&quot;#具体步骤：&quot; class=&quot;headerlink&quot; title=&quot;具体步骤：&quot;&gt;&lt;/a&gt;具体步骤：&lt;/h2&gt;&lt;h3 id=&quot;申请账户&quot;&gt;&lt;a href=&quot;#申请账户&quot; class=&quot;headerlink&quot; title=&quot;申请账户&quot;&gt;&lt;/a&gt;申请账户&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.qiniu.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;七牛云官网&lt;/a&gt; 申请一个账户，还是比较简单的，要上传手持身份证的照片进行认证一下，一般一两天就能通过了。&lt;/p&gt;
     
     </summary>
     
       <category term="Hexo" scheme="http://www.luofengblog.com/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://www.luofengblog.com/tags/Hexo/"/>
-    
       <category term="七牛云图床" scheme="http://www.luofengblog.com/tags/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A/"/>
+    
+      <category term="Hexo" scheme="http://www.luofengblog.com/tags/Hexo/"/>
     
   </entry>
   
