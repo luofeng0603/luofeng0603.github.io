@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-07-26T07:05:14.964Z</updated>
+  <updated>2018-07-28T03:27:59.362Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo使用七牛云做图床</title>
+    <link href="http://www.luofengblog.com/2018/07/28/qiniu/"/>
+    <id>http://www.luofengblog.com/2018/07/28/qiniu/</id>
+    <published>2018-07-28T02:47:49.000Z</published>
+    <updated>2018-07-28T03:27:59.362Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://www.luofengblog.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://www.luofengblog.com/tags/Hexo/"/>
+    
+      <category term="七牛云图床" scheme="http://www.luofengblog.com/tags/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
     <title>树莓派配合Openmediavault搭建媒体中心</title>
     <link href="http://www.luofengblog.com/2018/07/26/openmediavault/"/>
     <id>http://www.luofengblog.com/2018/07/26/openmediavault/</id>
     <published>2018-07-26T04:36:00.000Z</published>
-    <updated>2018-07-26T07:05:14.964Z</updated>
+    <updated>2018-07-26T07:10:08.719Z</updated>
     
     <summary type="html">
     

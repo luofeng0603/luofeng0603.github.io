@@ -4,8 +4,30 @@
 
     
   <url>
+    <loc>http://www.luofengblog.com/2018/07/28/qiniu/</loc>
+    <lastmod>2018-07-28T03:27:59.362Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo使用七牛云做图床</title>
+        <pubTime>2018-07-28T02:47:49.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>七牛云图床</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://www.luofengblog.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.luofengblog.com/2018/07/26/openmediavault/</loc>
-    <lastmod>2018-07-26T07:05:14.964Z</lastmod>
+    <lastmod>2018-07-26T07:10:08.719Z</lastmod>
     <data>
         <display>
         <title>树莓派配合Openmediavault搭建媒体中心</title>
