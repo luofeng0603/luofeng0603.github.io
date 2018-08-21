@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Allow: /aboout/
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+
+Sitemap: http://luofengblog/sitemap.xml
+Sitemap: http://luofengblog/baidusitemap.xml
