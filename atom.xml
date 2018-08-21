@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luofengblog.com/"/>
-  <updated>2018-08-21T08:51:34.401Z</updated>
+  <updated>2018-08-21T08:59:06.198Z</updated>
   <id>http://luofengblog.com/</id>
   
   <author>
@@ -21,11 +21,14 @@
     <link href="http://luofengblog.com/archives/1e5c5592.html"/>
     <id>http://luofengblog.com/archives/1e5c5592.html</id>
     <published>2018-08-21T05:51:44.000Z</published>
-    <updated>2018-08-21T08:51:34.401Z</updated>
+    <updated>2018-08-21T08:59:06.198Z</updated>
     
     <summary type="html">
     
-      介绍一种不常见的资源(电影)同步方式
+      &lt;h3 id=&quot;问题：&quot;&gt;&lt;a href=&quot;#问题：&quot; class=&quot;headerlink&quot; title=&quot;问题：&quot;&gt;&lt;/a&gt;问题：&lt;/h3&gt;&lt;p&gt;自从之前在树莓派上安装了Openmediavault之后，基本实现了局域网看电影的需求，电视端软件用Kodi+Plex插件的方式解决，但是下电影是个麻烦事儿。&lt;/p&gt;
+&lt;p&gt;OVM上的BT下载插件，下载很多国内的bt种子是一点速度都没有啊，真是让人奔溃。&lt;/p&gt;
+&lt;p&gt;后来发现插件中心有&lt;code&gt;Syncthing&lt;/code&gt;这个插件&lt;br&gt;&lt;img src=&quot;http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-55-58.png&quot; alt=&quot;2018-08-21-13-55-58&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在电脑上试着同步了一下，感觉还不错。于是想到一个办法，平常很多新电影就在电脑上用迅雷等各种软件进行下载，然后再通过Syncthing自动同步到树莓派上不就行了么。。。。呵呵呵，机智如我。&lt;/p&gt;
     
     </summary>
     

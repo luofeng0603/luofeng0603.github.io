@@ -417,10 +417,13 @@
 
       
         
-          介绍一种不常见的资源(电影)同步方式
+          <h3 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h3><p>自从之前在树莓派上安装了Openmediavault之后，基本实现了局域网看电影的需求，电视端软件用Kodi+Plex插件的方式解决，但是下电影是个麻烦事儿。</p>
+<p>OVM上的BT下载插件，下载很多国内的bt种子是一点速度都没有啊，真是让人奔溃。</p>
+<p>后来发现插件中心有<code>Syncthing</code>这个插件<br><img src="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-55-58.png" alt="2018-08-21-13-55-58"></p>
+<p>在电脑上试着同步了一下，感觉还不错。于是想到一个办法，平常很多新电影就在电脑上用迅雷等各种软件进行下载，然后再通过Syncthing自动同步到树莓派上不就行了么。。。。呵呵呵，机智如我。</p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/archives/1e5c5592.html">
+            <a class="btn" href="/archives/1e5c5592.html#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -575,13 +578,19 @@
       
         
           
-            <h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>今天更新Algolia索引的的时候，报错了：<br><img src="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-23-48.png" alt="2018-08-21-13-23-48"></p>
-<p>查了一下免费账户单个索引大小只能在10K以下，这是官网的说明：<br><img src="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-24-55.png" alt="2018-08-21-13-24-55"></p>
-<p>这就尴尬了，赶紧找找解决方案：</p>
-<p>在项目根目录 <code>node_modules</code>下面找 <code>hexo-aloglia-&gt;lib-&gt;commond.js</code></p>
-<p>把这句代码改一下，目前好像也没有其他更好的办法，将就着用。<br><img src="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-28-01.png" alt="2018-08-21-13-28-01"></p>
-
-          
+          问题描述今天更新Algolia索引的的时候，报错了：
+查了一下免费账户单个索引大小只能在10K以下，这是官网的说明：
+这就尴尬了，赶紧找找解决方案：
+在项目根目录 node_modules下面找 hexo-aloglia-&gt;lib-&gt;commond.js
+把这句代码改一下，目前好像也没有
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/archives/d0b56b63.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1531,13 +1540,17 @@
       
         
           
-            <p>&emsp;&emsp;在html页面中经常看到引入了下面两个文件：</p>
-<pre><code>&lt;script src=&quot;./js/html5shiv.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;./js/respond.min.js&quot;&gt;&lt;/script&gt;
-</code></pre><p>&emsp;&emsp;其中 html5shiv 可以让不支持html5的浏览器支持html5的新增标签，<em>IE 9</em> 支持html5，但是其以下的并不支持。</p>
-<p>&emsp;&emsp;respond.js 是一个快速轻量的 <em>polyfill</em> ， 用来为 IE6-8 以及其他不支持 CSS3 媒体查询的浏览器提供 <em>min-width</em> 和 <em>max-width</em> 特性，实现响应式网页设计。</p>
-
-          
+          &emsp;&emsp;在html页面中经常看到引入了下面两个文件：
+&lt;script src=&quot;./js/html5shiv.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;./js/respond.min.js&quot;&gt;&
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/archives/5bd6e37d.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
