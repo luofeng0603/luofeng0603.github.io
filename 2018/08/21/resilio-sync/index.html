@@ -97,7 +97,7 @@
 <meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-14-22-32.png">
 <meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-14-18-26.png">
 <meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-14-19-30.png">
-<meta property="og:updated_time" content="2018-08-21T06:27:56.131Z">
+<meta property="og:updated_time" content="2018-08-21T06:29:11.933Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="多端同步电影">
 <meta name="twitter:description" content="问题：自从之前在树莓派上安装了Openmediavault之后，基本实现了局域网看电影的需求，电视端软件用Kodi+Plex插件的方式解决，但是下电影是个麻烦事儿。 OVM上的BT下载插件，下载很多国内的bt种子是一点速度都没有啊，真是让人奔溃。 后来发现插件中心有Syncthing这个插件 在电脑上试着同步了一下，感觉还不错。于是想到一个办法，平常很多新电影就在电脑上用迅雷等各种软件进行下载，然">
@@ -436,12 +436,12 @@
 <p>OVM上的BT下载插件，下载很多国内的bt种子是一点速度都没有啊，真是让人奔溃。</p>
 <p>后来发现插件中心有<code>Syncthing</code>这个插件<br><img src="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-55-58.png" alt="2018-08-21-13-55-58"></p>
 <p>在电脑上试着同步了一下，感觉还不错。于是想到一个办法，平常很多新电影就在电脑上用迅雷等各种软件进行下载，然后再通过Syncthing自动同步到树莓派上不就行了么。。。。呵呵呵，机智如我。</p>
+<a id="more"></a>
 <p>后来又发现一个同步软件叫 Resilio Sync 也很好用，关键是电影资源有专人在维护，灰常好使啊。但是OVM上没这个插件，所以额，要同步下载的电影，只能曲线一下了。</p>
 <p>所以我的电影下载方案就变成了 Resilio Sync同步别人的电影，然后通过Syncthing再同步到我的树莓派。</p>
 <h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>这个是Resilio Sync的主界面<br><img src="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-14-02-00.png" alt="2018-08-21-14-02-00"></p>
 <p>右上角有个Pro，Pro版本可以只同步你需要的文件。具体意思就是说，非Pro版本会同步文件夹下的所有内容，如果对方共享的文件夹有1个T，我磁盘空间不够咋办，或者很多东西我不想同步啊，PRO版本就可以解决这个问题，它首先只会同步文件夹的目录结构，然后你可以选择性的进行同步。</p>
 <p>不过这个功能体验性不太好啊，你无法看到哪几个文件是你选择性同步了的，不过总比整个都同步过来要好一些。</p>
-<a id="more"></a>
 <p>Pro版本 可以通过2020大法来解决，具体就是说，安装完之后，先不要点击体验Pro，先把系统时间调到当前时间之后，比如2020年，然后点击试用Pro，报错不用管，然后再把系统时间调回来，这样你就可以免费试用到2020年了。。。</p>
 <p>分享一个神Key：<code>BCWHZRSLANR64CGPTXRE54ENNSIUE5SMO</code><br>他们是这么介绍的：神Key - 最有种的 Sync 资源</p>
 <p>有些新出的电影也上的比较及时，不错的。</p>
