@@ -5,9 +5,9 @@
   <subtitle>个人点滴记录</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.luofengblog.com/"/>
+  <link href="http://luofengblog.com/"/>
   <updated>2018-08-21T06:47:17.441Z</updated>
-  <id>http://www.luofengblog.com/</id>
+  <id>http://luofengblog.com/</id>
   
   <author>
     <name>落枫</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>多端同步电影</title>
-    <link href="http://www.luofengblog.com/archives/1e5c5592.html"/>
-    <id>http://www.luofengblog.com/archives/1e5c5592.html</id>
+    <link href="http://luofengblog.com/archives/1e5c5592.html"/>
+    <id>http://luofengblog.com/archives/1e5c5592.html</id>
     <published>2018-08-21T05:51:44.000Z</published>
     <updated>2018-08-21T06:47:17.441Z</updated>
     
@@ -32,21 +32,21 @@
     
     </summary>
     
-      <category term="同步软件" scheme="http://www.luofengblog.com/categories/%E5%90%8C%E6%AD%A5%E8%BD%AF%E4%BB%B6/"/>
+      <category term="同步软件" scheme="http://luofengblog.com/categories/%E5%90%8C%E6%AD%A5%E8%BD%AF%E4%BB%B6/"/>
     
     
-      <category term="同步软件" scheme="http://www.luofengblog.com/tags/%E5%90%8C%E6%AD%A5%E8%BD%AF%E4%BB%B6/"/>
+      <category term="同步软件" scheme="http://luofengblog.com/tags/%E5%90%8C%E6%AD%A5%E8%BD%AF%E4%BB%B6/"/>
     
-      <category term="sync" scheme="http://www.luofengblog.com/tags/sync/"/>
+      <category term="sync" scheme="http://luofengblog.com/tags/sync/"/>
     
-      <category term="Resilio Sync" scheme="http://www.luofengblog.com/tags/Resilio-Sync/"/>
+      <category term="Resilio Sync" scheme="http://luofengblog.com/tags/Resilio-Sync/"/>
     
   </entry>
   
   <entry>
     <title>algolia报错</title>
-    <link href="http://www.luofengblog.com/archives/d0b56b63.html"/>
-    <id>http://www.luofengblog.com/archives/d0b56b63.html</id>
+    <link href="http://luofengblog.com/archives/d0b56b63.html"/>
+    <id>http://luofengblog.com/archives/d0b56b63.html</id>
     <published>2018-08-21T05:18:36.000Z</published>
     <updated>2018-08-21T06:56:57.329Z</updated>
     
@@ -62,19 +62,19 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://www.luofengblog.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://luofengblog.com/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://www.luofengblog.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://luofengblog.com/tags/Hexo/"/>
     
-      <category term="Algolia" scheme="http://www.luofengblog.com/tags/Algolia/"/>
+      <category term="Algolia" scheme="http://luofengblog.com/tags/Algolia/"/>
     
   </entry>
   
   <entry>
     <title>ThinkPHP5 导出CSV</title>
-    <link href="http://www.luofengblog.com/archives/52af9c1a.html"/>
-    <id>http://www.luofengblog.com/archives/52af9c1a.html</id>
+    <link href="http://luofengblog.com/archives/52af9c1a.html"/>
+    <id>http://luofengblog.com/archives/52af9c1a.html</id>
     <published>2018-08-21T04:32:31.000Z</published>
     <updated>2018-08-21T06:43:31.397Z</updated>
     
@@ -89,21 +89,21 @@
     
     </summary>
     
-      <category term="THINKPHP" scheme="http://www.luofengblog.com/categories/THINKPHP/"/>
+      <category term="THINKPHP" scheme="http://luofengblog.com/categories/THINKPHP/"/>
     
     
-      <category term="THINKPHP5" scheme="http://www.luofengblog.com/tags/THINKPHP5/"/>
+      <category term="THINKPHP5" scheme="http://luofengblog.com/tags/THINKPHP5/"/>
     
-      <category term="PHP" scheme="http://www.luofengblog.com/tags/PHP/"/>
+      <category term="PHP" scheme="http://luofengblog.com/tags/PHP/"/>
     
-      <category term="CSV" scheme="http://www.luofengblog.com/tags/CSV/"/>
+      <category term="CSV" scheme="http://luofengblog.com/tags/CSV/"/>
     
   </entry>
   
   <entry>
     <title>Hexo使用七牛云做图床</title>
-    <link href="http://www.luofengblog.com/archives/ff07c752.html"/>
-    <id>http://www.luofengblog.com/archives/ff07c752.html</id>
+    <link href="http://luofengblog.com/archives/ff07c752.html"/>
+    <id>http://luofengblog.com/archives/ff07c752.html</id>
     <published>2018-07-28T02:47:49.000Z</published>
     <updated>2018-08-21T06:43:31.406Z</updated>
     
@@ -115,19 +115,19 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://www.luofengblog.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://luofengblog.com/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://www.luofengblog.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://luofengblog.com/tags/Hexo/"/>
     
-      <category term="七牛云图床" scheme="http://www.luofengblog.com/tags/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A/"/>
+      <category term="七牛云图床" scheme="http://luofengblog.com/tags/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
   <entry>
     <title>树莓派配合Openmediavault搭建媒体中心</title>
-    <link href="http://www.luofengblog.com/archives/5aa29cb9.html"/>
-    <id>http://www.luofengblog.com/archives/5aa29cb9.html</id>
+    <link href="http://luofengblog.com/archives/5aa29cb9.html"/>
+    <id>http://luofengblog.com/archives/5aa29cb9.html</id>
     <published>2018-07-26T04:36:00.000Z</published>
     <updated>2018-08-21T06:43:31.412Z</updated>
     
@@ -140,23 +140,23 @@
     
     </summary>
     
-      <category term="树莓派" scheme="http://www.luofengblog.com/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+      <category term="树莓派" scheme="http://luofengblog.com/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
     
-      <category term="树莓派" scheme="http://www.luofengblog.com/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+      <category term="树莓派" scheme="http://luofengblog.com/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
-      <category term="openmediavault" scheme="http://www.luofengblog.com/tags/openmediavault/"/>
+      <category term="openmediavault" scheme="http://luofengblog.com/tags/openmediavault/"/>
     
-      <category term="媒体中心" scheme="http://www.luofengblog.com/tags/%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/"/>
+      <category term="媒体中心" scheme="http://luofengblog.com/tags/%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/"/>
     
-      <category term="NAS" scheme="http://www.luofengblog.com/tags/NAS/"/>
+      <category term="NAS" scheme="http://luofengblog.com/tags/NAS/"/>
     
   </entry>
   
   <entry>
     <title>揭秘“合成氢动力水”</title>
-    <link href="http://www.luofengblog.com/archives/31d94944.html"/>
-    <id>http://www.luofengblog.com/archives/31d94944.html</id>
+    <link href="http://luofengblog.com/archives/31d94944.html"/>
+    <id>http://luofengblog.com/archives/31d94944.html</id>
     <published>2018-07-24T04:39:07.000Z</published>
     <updated>2018-08-21T06:43:31.410Z</updated>
     
@@ -167,19 +167,19 @@
     
     </summary>
     
-      <category term="杂谈" scheme="http://www.luofengblog.com/categories/%E6%9D%82%E8%B0%88/"/>
+      <category term="杂谈" scheme="http://luofengblog.com/categories/%E6%9D%82%E8%B0%88/"/>
     
     
-      <category term="合成氢动力水" scheme="http://www.luofengblog.com/tags/%E5%90%88%E6%88%90%E6%B0%A2%E5%8A%A8%E5%8A%9B%E6%B0%B4/"/>
+      <category term="合成氢动力水" scheme="http://luofengblog.com/tags/%E5%90%88%E6%88%90%E6%B0%A2%E5%8A%A8%E5%8A%9B%E6%B0%B4/"/>
     
-      <category term="汽车新型燃料" scheme="http://www.luofengblog.com/tags/%E6%B1%BD%E8%BD%A6%E6%96%B0%E5%9E%8B%E7%87%83%E6%96%99/"/>
+      <category term="汽车新型燃料" scheme="http://luofengblog.com/tags/%E6%B1%BD%E8%BD%A6%E6%96%B0%E5%9E%8B%E7%87%83%E6%96%99/"/>
     
   </entry>
   
   <entry>
     <title>内网穿透利器FRP</title>
-    <link href="http://www.luofengblog.com/archives/1ebca6c7.html"/>
-    <id>http://www.luofengblog.com/archives/1ebca6c7.html</id>
+    <link href="http://luofengblog.com/archives/1ebca6c7.html"/>
+    <id>http://luofengblog.com/archives/1ebca6c7.html</id>
     <published>2018-07-23T07:36:00.000Z</published>
     <updated>2018-08-21T06:43:31.396Z</updated>
     
@@ -192,21 +192,21 @@
     
     </summary>
     
-      <category term="工具" scheme="http://www.luofengblog.com/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="http://luofengblog.com/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="FRP" scheme="http://www.luofengblog.com/tags/FRP/"/>
+      <category term="FRP" scheme="http://luofengblog.com/tags/FRP/"/>
     
-      <category term="内网穿透" scheme="http://www.luofengblog.com/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
+      <category term="内网穿透" scheme="http://luofengblog.com/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
     
-      <category term="反向代理" scheme="http://www.luofengblog.com/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
+      <category term="反向代理" scheme="http://luofengblog.com/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>html5shiv.js和respond.js</title>
-    <link href="http://www.luofengblog.com/archives/5bd6e37d.html"/>
-    <id>http://www.luofengblog.com/archives/5bd6e37d.html</id>
+    <link href="http://luofengblog.com/archives/5bd6e37d.html"/>
+    <id>http://luofengblog.com/archives/5bd6e37d.html</id>
     <published>2018-07-21T02:26:12.000Z</published>
     <updated>2018-08-21T06:43:31.408Z</updated>
     
@@ -224,17 +224,17 @@
     
     </summary>
     
-      <category term="JS" scheme="http://www.luofengblog.com/categories/JS/"/>
+      <category term="JS" scheme="http://luofengblog.com/categories/JS/"/>
     
     
-      <category term="JS" scheme="http://www.luofengblog.com/tags/JS/"/>
+      <category term="JS" scheme="http://luofengblog.com/tags/JS/"/>
     
   </entry>
   
   <entry>
     <title>js中!的神奇作用</title>
-    <link href="http://www.luofengblog.com/archives/e160c881.html"/>
-    <id>http://www.luofengblog.com/archives/e160c881.html</id>
+    <link href="http://luofengblog.com/archives/e160c881.html"/>
+    <id>http://luofengblog.com/archives/e160c881.html</id>
     <published>2018-07-20T03:26:12.000Z</published>
     <updated>2018-08-21T06:43:31.403Z</updated>
     
@@ -246,17 +246,17 @@
     
     </summary>
     
-      <category term="JS" scheme="http://www.luofengblog.com/categories/JS/"/>
+      <category term="JS" scheme="http://luofengblog.com/categories/JS/"/>
     
     
-      <category term="JS" scheme="http://www.luofengblog.com/tags/JS/"/>
+      <category term="JS" scheme="http://luofengblog.com/tags/JS/"/>
     
   </entry>
   
   <entry>
     <title>Hexo搭建个人博客系列(一)：安装</title>
-    <link href="http://www.luofengblog.com/archives/bfdcc04a.html"/>
-    <id>http://www.luofengblog.com/archives/bfdcc04a.html</id>
+    <link href="http://luofengblog.com/archives/bfdcc04a.html"/>
+    <id>http://luofengblog.com/archives/bfdcc04a.html</id>
     <published>2018-07-11T05:25:44.000Z</published>
     <updated>2018-08-21T06:43:31.405Z</updated>
     
@@ -272,17 +272,17 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://www.luofengblog.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://luofengblog.com/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://www.luofengblog.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://luofengblog.com/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>IKBC POKER 最适合程序员的键位编程</title>
-    <link href="http://www.luofengblog.com/archives/5f49c334.html"/>
-    <id>http://www.luofengblog.com/archives/5f49c334.html</id>
+    <link href="http://luofengblog.com/archives/5f49c334.html"/>
+    <id>http://luofengblog.com/archives/5f49c334.html</id>
     <published>2018-07-10T05:28:20.000Z</published>
     <updated>2018-08-21T06:43:31.401Z</updated>
     
@@ -293,10 +293,10 @@
     
     </summary>
     
-      <category term="外设" scheme="http://www.luofengblog.com/categories/%E5%A4%96%E8%AE%BE/"/>
+      <category term="外设" scheme="http://luofengblog.com/categories/%E5%A4%96%E8%AE%BE/"/>
     
     
-      <category term="键盘" scheme="http://www.luofengblog.com/tags/%E9%94%AE%E7%9B%98/"/>
+      <category term="键盘" scheme="http://luofengblog.com/tags/%E9%94%AE%E7%9B%98/"/>
     
   </entry>
   
