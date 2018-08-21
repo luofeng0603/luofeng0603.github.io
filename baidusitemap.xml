@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://luofengblog.com/archives/5bd6e37d.html</loc>
+    <lastmod>2018-08-21T09:09:26.727Z</lastmod>
+    <data>
+        <display>
+        <title>html5shiv.js和respond.js</title>
+        <pubTime>2018-07-21T02:26:12.000Z</pubTime>
+        
+        <tag>JS</tag>
+         
+         
+           
+             
+              <breadCrumb title="JS" url="http://luofengblog.com/categories/JS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://luofengblog.com/archives/1e5c5592.html</loc>
-    <lastmod>2018-08-21T08:59:06.198Z</lastmod>
+    <lastmod>2018-08-21T09:08:50.884Z</lastmod>
     <data>
         <display>
         <title>多端同步电影</title>
@@ -27,18 +47,17 @@
     </url>
 
     
-    
   <url>
-    <loc>http://luofengblog.com/archives/d0b56b63.html</loc>
-    <lastmod>2018-08-21T06:56:57.329Z</lastmod>
+    <loc>http://luofengblog.com/archives/ff07c752.html</loc>
+    <lastmod>2018-08-21T09:08:31.685Z</lastmod>
     <data>
         <display>
-        <title>algolia报错</title>
-        <pubTime>2018-08-21T05:18:36.000Z</pubTime>
+        <title>Hexo使用七牛云做图床</title>
+        <pubTime>2018-07-28T02:47:49.000Z</pubTime>
         
         <tag>Hexo</tag>
          
-        <tag>Algolia</tag>
+        <tag>七牛云图床</tag>
          
          
            
@@ -51,8 +70,30 @@
 
     
   <url>
+    <loc>http://luofengblog.com/archives/31d94944.html</loc>
+    <lastmod>2018-08-21T09:08:06.304Z</lastmod>
+    <data>
+        <display>
+        <title>揭秘“合成氢动力水”</title>
+        <pubTime>2018-07-24T04:39:07.000Z</pubTime>
+        
+        <tag>合成氢动力水</tag>
+         
+        <tag>汽车新型燃料</tag>
+         
+         
+           
+             
+              <breadCrumb title="杂谈" url="http://luofengblog.com/categories/%E6%9D%82%E8%B0%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://luofengblog.com/archives/5aa29cb9.html</loc>
-    <lastmod>2018-08-21T06:43:31.412Z</lastmod>
+    <lastmod>2018-08-21T09:06:59.542Z</lastmod>
     <data>
         <display>
         <title>树莓派配合Openmediavault搭建媒体中心</title>
@@ -77,92 +118,8 @@
 
     
   <url>
-    <loc>http://luofengblog.com/archives/31d94944.html</loc>
-    <lastmod>2018-08-21T06:43:31.410Z</lastmod>
-    <data>
-        <display>
-        <title>揭秘“合成氢动力水”</title>
-        <pubTime>2018-07-24T04:39:07.000Z</pubTime>
-        
-        <tag>合成氢动力水</tag>
-         
-        <tag>汽车新型燃料</tag>
-         
-         
-           
-             
-              <breadCrumb title="杂谈" url="http://luofengblog.com/categories/%E6%9D%82%E8%B0%88/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://luofengblog.com/archives/5bd6e37d.html</loc>
-    <lastmod>2018-08-21T06:43:31.408Z</lastmod>
-    <data>
-        <display>
-        <title>html5shiv.js和respond.js</title>
-        <pubTime>2018-07-21T02:26:12.000Z</pubTime>
-        
-        <tag>JS</tag>
-         
-         
-           
-             
-              <breadCrumb title="JS" url="http://luofengblog.com/categories/JS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://luofengblog.com/archives/ff07c752.html</loc>
-    <lastmod>2018-08-21T06:43:31.406Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo使用七牛云做图床</title>
-        <pubTime>2018-07-28T02:47:49.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>七牛云图床</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://luofengblog.com/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://luofengblog.com/archives/bfdcc04a.html</loc>
-    <lastmod>2018-08-21T06:43:31.405Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo搭建个人博客系列(一)：安装</title>
-        <pubTime>2018-07-11T05:25:44.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://luofengblog.com/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://luofengblog.com/archives/e160c881.html</loc>
-    <lastmod>2018-08-21T06:43:31.403Z</lastmod>
+    <lastmod>2018-08-21T09:06:13.678Z</lastmod>
     <data>
         <display>
         <title>js中!的神奇作用</title>
@@ -182,7 +139,7 @@
     
   <url>
     <loc>http://luofengblog.com/archives/5f49c334.html</loc>
-    <lastmod>2018-08-21T06:43:31.401Z</lastmod>
+    <lastmod>2018-08-21T09:05:50.722Z</lastmod>
     <data>
         <display>
         <title>IKBC POKER 最适合程序员的键位编程</title>
@@ -201,8 +158,28 @@
 
     
   <url>
+    <loc>http://luofengblog.com/archives/bfdcc04a.html</loc>
+    <lastmod>2018-08-21T09:05:14.959Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo搭建个人博客系列(一)：安装</title>
+        <pubTime>2018-07-11T05:25:44.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://luofengblog.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://luofengblog.com/archives/52af9c1a.html</loc>
-    <lastmod>2018-08-21T06:43:31.397Z</lastmod>
+    <lastmod>2018-08-21T09:04:29.203Z</lastmod>
     <data>
         <display>
         <title>ThinkPHP5 导出CSV</title>
@@ -218,6 +195,29 @@
            
              
               <breadCrumb title="THINKPHP" url="http://luofengblog.com/categories/THINKPHP/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://luofengblog.com/archives/d0b56b63.html</loc>
+    <lastmod>2018-08-21T06:56:57.329Z</lastmod>
+    <data>
+        <display>
+        <title>algolia报错</title>
+        <pubTime>2018-08-21T05:18:36.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Algolia</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://luofengblog.com/categories/Hexo/"/>
           
         </display>
     </data>
