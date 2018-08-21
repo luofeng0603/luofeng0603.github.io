@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luofengblog.com/"/>
-  <updated>2018-08-21T04:49:05.283Z</updated>
+  <updated>2018-08-21T05:28:36.449Z</updated>
   <id>http://www.luofengblog.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>algolia-error</title>
+    <link href="http://www.luofengblog.com/2018/08/21/algolia-error/"/>
+    <id>http://www.luofengblog.com/2018/08/21/algolia-error/</id>
+    <published>2018-08-21T05:18:36.000Z</published>
+    <updated>2018-08-21T05:28:36.449Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;p&gt;今天更新Algolia索引的的时候，报错了：&lt;br&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://www.luofengblog.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://www.luofengblog.com/tags/Hexo/"/>
+    
+      <category term="Algolia" scheme="http://www.luofengblog.com/tags/Algolia/"/>
+    
+  </entry>
   
   <entry>
     <title>ThinkPHP5 导出CSV</title>
