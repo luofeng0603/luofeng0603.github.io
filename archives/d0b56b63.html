@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="THINKPHP5,PHP,CSV," />
+  <meta name="keywords" content="Hexo,Algolia," />
 
 
 
@@ -81,18 +81,22 @@
 
 
 
-<meta name="description" content="问题背景：这两天项目有导出数据的需求，本来使用的是bootstrap-table 表格导出插件完成的，不过业务数据稍大一点（5K条以上)就比较卡了，如果电脑性能差一点的话，浏览器经常被卡死，所以想着得换成后台导出才行。 后台导出一般有两种方式：  使用PHPEXCEL导出 自己导出CSV格式">
-<meta name="keywords" content="THINKPHP5,PHP,CSV">
+<meta name="description" content="问题描述今天更新Algolia索引的的时候，报错了： 查了一下免费账户单个索引大小只能在10K以下，这是官网的说明： 这就尴尬了，赶紧找找解决方案： 在项目根目录 node_modules下面找 hexo-aloglia-&amp;gt;lib-&amp;gt;commond.js 把这句代码改一下，目前好像也没有其他更好的办法，将就着用。">
+<meta name="keywords" content="Hexo,Algolia">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ThinkPHP5 导出CSV">
-<meta property="og:url" content="http://www.luofengblog.com/2018/08/21/exportcsv/index.html">
+<meta property="og:title" content="algolia-error">
+<meta property="og:url" content="http://www.luofengblog.com/archives/d0b56b63.html">
 <meta property="og:site_name" content="落枫的博客">
-<meta property="og:description" content="问题背景：这两天项目有导出数据的需求，本来使用的是bootstrap-table 表格导出插件完成的，不过业务数据稍大一点（5K条以上)就比较卡了，如果电脑性能差一点的话，浏览器经常被卡死，所以想着得换成后台导出才行。 后台导出一般有两种方式：  使用PHPEXCEL导出 自己导出CSV格式">
+<meta property="og:description" content="问题描述今天更新Algolia索引的的时候，报错了： 查了一下免费账户单个索引大小只能在10K以下，这是官网的说明： 这就尴尬了，赶紧找找解决方案： 在项目根目录 node_modules下面找 hexo-aloglia-&amp;gt;lib-&amp;gt;commond.js 把这句代码改一下，目前好像也没有其他更好的办法，将就着用。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-21T04:49:05.283Z">
+<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-23-48.png">
+<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-24-55.png">
+<meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-28-01.png">
+<meta property="og:updated_time" content="2018-08-21T05:28:36.449Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ThinkPHP5 导出CSV">
-<meta name="twitter:description" content="问题背景：这两天项目有导出数据的需求，本来使用的是bootstrap-table 表格导出插件完成的，不过业务数据稍大一点（5K条以上)就比较卡了，如果电脑性能差一点的话，浏览器经常被卡死，所以想着得换成后台导出才行。 后台导出一般有两种方式：  使用PHPEXCEL导出 自己导出CSV格式">
+<meta name="twitter:title" content="algolia-error">
+<meta name="twitter:description" content="问题描述今天更新Algolia索引的的时候，报错了： 查了一下免费账户单个索引大小只能在10K以下，这是官网的说明： 这就尴尬了，赶紧找找解决方案： 在项目根目录 node_modules下面找 hexo-aloglia-&amp;gt;lib-&amp;gt;commond.js 把这句代码改一下，目前好像也没有其他更好的办法，将就着用。">
+<meta name="twitter:image" content="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-23-48.png">
 
 
 
@@ -122,13 +126,13 @@
 
 
 
-  <link rel="canonical" href="http://www.luofengblog.com/2018/08/21/exportcsv/"/>
+  <link rel="canonical" href="http://www.luofengblog.com/archives/d0b56b63.html"/>
 
 
 
 
 
-  <title>ThinkPHP5 导出CSV | 落枫的博客</title>
+  <title>algolia-error | 落枫的博客</title>
   
 
 
@@ -313,7 +317,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.luofengblog.com/2018/08/21/exportcsv/">
+    <link itemprop="mainEntityOfPage" href="http://www.luofengblog.com/archives/d0b56b63.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="落枫">
@@ -330,7 +334,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">ThinkPHP5 导出CSV</h1>
+          <h1 class="post-title" itemprop="name headline">algolia-error</h1>
         
 
         <div class="post-meta">
@@ -342,7 +346,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-21T12:32:31+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-21T13:18:36+08:00">
                 2018-08-21
               </time>
             
@@ -365,8 +369,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/THINKPHP/" itemprop="url" rel="index">
-                    <span itemprop="name">THINKPHP</span>
+                  <a href="/categories/Hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo</span>
                   </a>
                 </span>
 
@@ -383,8 +387,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/08/21/exportcsv/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/08/21/exportcsv/" itemprop="commentsCount"></span>
+                <a href="/archives/d0b56b63.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/archives/d0b56b63.html" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -392,7 +396,7 @@
 
           
           
-             <span id="/2018/08/21/exportcsv/" class="leancloud_visitors" data-flag-title="ThinkPHP5 导出CSV">
+             <span id="/archives/d0b56b63.html" class="leancloud_visitors" data-flag-title="algolia-error">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -423,19 +427,11 @@
       
 
       
-        <h3 id="问题背景："><a href="#问题背景：" class="headerlink" title="问题背景："></a>问题背景：</h3><p>这两天项目有导出数据的需求，本来使用的是<code>bootstrap-table</code> 表格导出插件完成的，不过业务数据稍大一点（5K条以上)就比较卡了，如果电脑性能差一点的话，浏览器经常被卡死，所以想着得换成后台导出才行。</p>
-<p>后台导出一般有两种方式：</p>
-<ul>
-<li>使用<code>PHPEXCEL</code>导出</li>
-<li>自己导出CSV格式</li>
-</ul>
-<a id="more"></a>
-<p>先用了一下PHPEXCEL，但是马上发现，这玩意资源占用率较高，导出1W+以上的数据就卡死了，网上查了一下说，一个单元格大概要占用1K的资源，虽然有一些参数可以做优化，不过懒的折腾了，直接换成自己写CSV了</p>
-<p>自己写了个方法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><code class="hljs undefined">if(!function_exists(&apos;exportCsv&apos;))&#123;<br>    function exportCsv($header,$model,$where)&#123;<br>        set_time_limit(0);<br>        header(&apos;Content-Type: application/vnd.ms-excel&apos;);<br>        header(&apos;Content-Disposition: attachment;filename=&quot;data.csv&quot;&apos;);<br>        header(&apos;Cache-Control: max-age=0&apos;);<br><br><br>        // 打开PHP文件句柄，php://output 表示直接输出到浏览器<br>        $fp = fopen(&apos;php://output&apos;, &apos;a&apos;);<br><br>        foreach($header as $v)&#123;<br>            $head[] = iconv(&quot;utf-8&quot;,&quot;GBK//IGNORE&quot;,$v[&apos;name&apos;]);<br>        &#125;<br><br>        fputcsv($fp, $head);<br>        $offset = 0;<br>        $limit = 5000;<br>        $count = $model-&gt;where($where)-&gt;count();<br>        $cnt = 0;<br>        for($i=0;$i&lt;ceil($count/$limit);$i++)&#123;<br>            $data = $model-&gt;where($where)-&gt;limit($offset,$limit)-&gt;select();<br>            try&#123;<br>                $list = collection($data)-&gt;toArray();<br>            &#125;catch(\Exception $e)&#123;<br>                p($e-&gt;getMessage());<br>            &#125;<br><br><br>            foreach($list as $v)&#123;<br>                $cnt++;<br>                $item = [];<br>                foreach($header as $h)&#123;<br>                    $value = $v[$h[&apos;field&apos;]];<br>                    $item[] = iconv(&quot;utf-8&quot;,&quot;GBK//IGNORE&quot;,$value);<br>                &#125;<br>                fputcsv($fp,$item);<br>            &#125;<br>            $offset = $offset+$limit;<br>            if($cnt == $limit)&#123;<br>                ob_flush();<br>                flush();<br>                $cnt = 0;<br>            &#125;<br>        &#125;<br>        fclose($fp);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></p>
-<p>控制器方法：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><code class="hljs undefined">/**<br> * php报表导出<br> */<br>public function exportOrderExcel()&#123;<br>    //设置过滤方法<br>    $this-&gt;request-&gt;filter([&apos;strip_tags&apos;]);<br>    list($where, $sort, $order, $offset, $limit) = $this-&gt;buildparams();<br>    //这个不用管 这是我根据前端参数自动组装sql条件的方法<br><br>    //设置表头<br>    $header = [<br>        [&quot;field&quot;=&gt;&quot;tid&quot;,&quot;name&quot;=&gt;&quot;订单编号&quot;],<br>        [&quot;field&quot;=&gt;&quot;goods_id&quot;,&quot;name&quot;=&gt;&quot;商品ID&quot;],<br>        [&quot;field&quot;=&gt;&quot;goods_title&quot;,&quot;name&quot;=&gt;&quot;商品名称&quot;],<br>        [&quot;field&quot;=&gt;&quot;order_state_text&quot;,&quot;name&quot;=&gt;&quot;订单状态&quot;],<br>        [&quot;field&quot;=&gt;&quot;pay_state_text&quot;,&quot;name&quot;=&gt;&quot;支付状态&quot;],<br>        [&quot;field&quot;=&gt;&quot;pay_time&quot;,&quot;name&quot;=&gt;&quot;付款时间&quot;],<br>        [&quot;field&quot;=&gt;&quot;goods_num&quot;,&quot;name&quot;=&gt;&quot;销售数量&quot;],<br>        [&quot;field&quot;=&gt;&quot;goods_price&quot;,&quot;name&quot;=&gt;&quot;销售价&quot;],<br>        [&quot;field&quot;=&gt;&quot;goods_price&quot;,&quot;name&quot;=&gt;&quot;成本价&quot;],<br>        [&quot;field&quot;=&gt;&quot;create_time&quot;,&quot;name&quot;=&gt;&quot;下单时间&quot;],<br>        [&quot;field&quot;=&gt;&quot;use_date&quot;,&quot;name&quot;=&gt;&quot;使用日期&quot;],<br>    ];<br><br>    exportCsv($header,$this-&gt;model,$where);<br>    //$this-&gt;model是 模型，$where 是条件<br><br>&#125;<br></code></pre></td></tr></table></figure>
-<p>所有的数据格式化，都是用THINKPHP5 模型的格式化方法来处理完成的。比如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><code class="hljs undefined">class ReportProduct extends BaseModel<br>&#123;<br>    // 表名<br>    protected $table = &apos;view_report_product_detail&apos;;<br>    <br>    // 自动写入时间戳字段<br>    protected $autoWriteTimestamp = false;<br><br>    // 定义时间戳字段名<br>    protected $createTime = false;<br>    protected $updateTime = false;<br>    <br>    // 追加属性<br>    protected $append = [&apos;pay_state_text&apos;,&apos;product_state_text&apos;];<br><br>    public function getPayStateTextAttr($value,$data)&#123;<br>        $value = $value?$value:$data[&apos;pay_state&apos;];<br>        return getOrderCode()[$value];<br>    &#125;<br><br>    public function getProductStateTextAttr($value,$data)&#123;<br>        $value = $value?$value:$data[&apos;product_state&apos;];<br>        return getOrderProductCode()[$value];<br>    &#125;<br><br>    public function getProductCostPriceAttr($value)&#123;<br>        return sprintf(&apos;%.2f&apos;,intval($value)/100);<br>    &#125;<br>    public function getTidAttr($value)&#123;<br>        return &apos;TID:&apos;.$value;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+        <h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>今天更新Algolia索引的的时候，报错了：<br><img src="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-23-48.png" alt="2018-08-21-13-23-48"></p>
+<p>查了一下免费账户单个索引大小只能在10K以下，这是官网的说明：<br><img src="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-24-55.png" alt="2018-08-21-13-24-55"></p>
+<p>这就尴尬了，赶紧找找解决方案：</p>
+<p>在项目根目录 <code>node_modules</code>下面找 <code>hexo-aloglia-&gt;lib-&gt;commond.js</code></p>
+<p>把这句代码改一下，目前好像也没有其他更好的办法，将就着用。<br><img src="http://pbmsgh6d0.bkt.clouddn.com/2018-08-21-13-28-01.png" alt="2018-08-21-13-28-01"></p>
 
       
     </div>
@@ -453,11 +449,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/THINKPHP5/" rel="tag"># THINKPHP5</a>
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
           
-            <a href="/tags/PHP/" rel="tag"># PHP</a>
-          
-            <a href="/tags/CSV/" rel="tag"># CSV</a>
+            <a href="/tags/Algolia/" rel="tag"># Algolia</a>
           
         </div>
       
@@ -470,8 +464,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/28/qiniu/" rel="next" title="Hexo使用七牛云做图床">
-                <i class="fa fa-chevron-left"></i> Hexo使用七牛云做图床
+              <a href="/archives/52af9c1a.html" rel="next" title="ThinkPHP5 导出CSV">
+                <i class="fa fa-chevron-left"></i> ThinkPHP5 导出CSV
               </a>
             
           </div>
@@ -480,8 +474,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/08/21/algolia-error/" rel="prev" title="algolia-error">
-                algolia-error <i class="fa fa-chevron-right"></i>
+              <a href="/archives/1e5c5592.html" rel="prev" title="多端同步电影">
+                多端同步电影 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -632,7 +626,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#问题背景："><span class="nav-number">1.</span> <span class="nav-text">问题背景：</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#问题描述"><span class="nav-number">1.</span> <span class="nav-text">问题描述</span></a></li></ol></div>
             
 
           </div>
