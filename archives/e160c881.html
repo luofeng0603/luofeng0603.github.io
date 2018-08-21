@@ -90,7 +90,7 @@
 <meta property="og:site_name" content="落枫的博客">
 <meta property="og:description" content="JS中！的神奇作用&amp;emsp;&amp;emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。 &amp;emsp;&amp;emsp;!function ($){...}(jQuery) &amp;emsp;&amp;emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-21T09:06:13.678Z">
+<meta property="og:updated_time" content="2018-08-21T09:49:08.819Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="js中!的神奇作用">
 <meta name="twitter:description" content="JS中！的神奇作用&amp;emsp;&amp;emsp;今天翻阅别人的源代码的时候，看到一个神奇的用法。 &amp;emsp;&amp;emsp;!function ($){...}(jQuery) &amp;emsp;&amp;emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。">
@@ -429,14 +429,11 @@
 <p>&emsp;&emsp;!正常来讲是一元操作符非，作者为何在一个函数前面加个非呢？为此我去翻阅了一些资料，发现其中还是有一些门道的。<br><a id="more"></a><br>&emsp;&emsp;js中匿名函数的一般用法是下面两种：</p>
 <pre><code>(function(){alert(&apos;a&apos;);})();
 (function(){alert(&apos;a&apos;);}());
-</code></pre><p>&emsp;&emsp;是用括号来实现的，如果你写成下面这样的话，是无法执行的：</p>
-<pre><code>function(){alert(&apos;a&apos;)}();
-</code></pre><p>&emsp;&emsp;因为这个代码把js解释器搞混了，前面function(){alert(‘a’)} 是函数声明，要调用申明的函数必须使用<code>a();</code>这种形式，所以自然无法执行。</p>
+</code></pre><p>&emsp;&emsp;是用括号来实现的，如果你写成下面这样的话，是无法执行的：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>&#123;alert(<span class="hljs-string">'a'</span>)&#125;();<br></code></pre></td></tr></table></figure></p>
+<p>&emsp;&emsp;因为这个代码把js解释器搞混了，前面function(){alert(‘a’)} 是函数声明，要调用申明的函数必须使用<code>a();</code>这种形式，所以自然无法执行。</p>
 <p>&emsp;&emsp;而括号将一个函数声明转化成了一个表达式，解析器不再以函数声明的方式处理函数a，而是作为一个函数表达式处理。</p>
-<p>&emsp;&emsp;所以<code>(function(){alert(&#39;a&#39;);})();</code>在js眼里等同于:</p>
-<pre><code>var a = function(){alert(&apos;a&apos;);};
-a();
-</code></pre><p>&emsp;&emsp;知道这个就好理解了，<strong>其实任何能让一个函数申明变成函数表达式的符号，都可以替代()的作用。</strong>! 就是其中一个，当然，聪明的你肯定也想到了，+-等等也是可以的。</p>
+<p>&emsp;&emsp;所以<code>(function(){alert(&#39;a&#39;);})();</code>在js眼里等同于:<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">var</span> a = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>&#123;alert(<span class="hljs-string">'a'</span>);&#125;;<br>a();<br></code></pre></td></tr></table></figure></p>
+<p>&emsp;&emsp;知道这个就好理解了，<strong>其实任何能让一个函数申明变成函数表达式的符号，都可以替代()的作用。</strong>! 就是其中一个，当然，聪明的你肯定也想到了，+-等等也是可以的。</p>
 <pre><code>!function(){alert(&apos;a&apos;);}();
 +function(){alert(&apos;a&apos;);}();
 -function(){alert(&apos;a&apos;);}();

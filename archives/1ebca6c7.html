@@ -69,7 +69,7 @@
 
 
 
-  <meta name="keywords" content="FRP,内网穿透,反向代理," />
+  <meta name="keywords" content="内网穿透 frp 反向代理" />
 
 
 
@@ -83,7 +83,7 @@
 
 
 <meta name="description" content="简单介绍Frp 是一个可用于内网穿透的高性能的反向代理应用，支持 tcp, udp, http, https 协议。 还有一个内网穿透工具叫做Ngrok，提供同样的功能，但是Frp使用更简单。 所需环境一台VPS(我的是Google VM实例，系统Debian 8 64位) 一个域名,可选，最好有比如 abc.com，要不然得用ip来进行访问了">
-<meta name="keywords" content="FRP,内网穿透,反向代理">
+<meta name="keywords" content="内网穿透 frp 反向代理">
 <meta property="og:type" content="article">
 <meta property="og:title" content="内网穿透利器FRP">
 <meta property="og:url" content="http://luofengblog.com/archives/1ebca6c7.html">
@@ -93,7 +93,7 @@
 <meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/frp-dir.png">
 <meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/frp-win.png">
 <meta property="og:image" content="http://pbmsgh6d0.bkt.clouddn.com/frp-win-success.png">
-<meta property="og:updated_time" content="2018-08-21T06:43:31.396Z">
+<meta property="og:updated_time" content="2018-08-21T09:36:13.126Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="内网穿透利器FRP">
 <meta name="twitter:description" content="简单介绍Frp 是一个可用于内网穿透的高性能的反向代理应用，支持 tcp, udp, http, https 协议。 还有一个内网穿透工具叫做Ngrok，提供同样的功能，但是Frp使用更简单。 所需环境一台VPS(我的是Google VM实例，系统Debian 8 64位) 一个域名,可选，最好有比如 abc.com，要不然得用ip来进行访问了">
@@ -434,7 +434,7 @@
 <p>一个域名,可选，最好有比如 abc.com，要不然得用ip来进行访问了</p>
 <a id="more"></a>
 <h2 id="配置步骤"><a href="#配置步骤" class="headerlink" title="配置步骤"></a>配置步骤</h2><h3 id="域名设置-可选"><a href="#域名设置-可选" class="headerlink" title="域名设置[可选]"></a>域名设置[可选]</h3><p>域名配置是可选的，不配置也没关系，但是为了方便访问，还是配置一个比较好，去域名商控制台绑定一个二级域名就可以，假设域名叫做abc.com, 要设置的二级域名叫做frp.abc.com,新增两条A记录：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs undefined">A   frp.abc.com     **.**.**.** (ip)<br>A   *.frp.abc.com   **.**.**.** (ip)<br></code></pre></td></tr></table></figure>
+<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs undefined">A   frp.abc.com     *<span class="hljs-strong">*.*</span><span class="hljs-strong">*.*</span><span class="hljs-strong">*.*</span>* (ip)<br>A   <span class="hljs-strong">*.frp.abc.com   *</span><span class="hljs-strong">*.*</span><span class="hljs-strong">*.*</span><span class="hljs-strong">*.*</span>* (ip)<br></code></pre></td></tr></table></figure>
 <h3 id="服务端配置"><a href="#服务端配置" class="headerlink" title="服务端配置"></a>服务端配置</h3><p><a href="https://github.com/fatedier/frp/releases" target="_blank" rel="noopener">下载地址</a> 找一个适合自己vps的安装包，我选择的是<code>frp_0.20.0_linux_amd64.tar.gz</code></p>
 <p>复制安装包的地址，在vps上输入：</p>
 <p><code>wget https://github.com/fatedier/frp/releases/download/v0.20.0/frp_0.20.0_linux_arm64.tar.gz</code> 进行安装包的下载</p>
@@ -445,7 +445,7 @@
 <p><img src="http://pbmsgh6d0.bkt.clouddn.com/frp-dir.png" alt="Frp"></p>
 <p>配置 frps.ini 文件</p>
 <p><code>vim frps.ini</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs undefined">[common]<br>bind_port = 7000<br>vhost_http_port = 80<br>vhost_https_port = 443<br>dashboard_port = 8088<br>dashboard_user = 用户名<br>dashboard_pwd = 密码<br>privilege_token = token<br>log_file = ./frps.log<br>log_level = info<br>[web1]<br>type = http<br>custom_domains = web1.abc.com<br>auth_token = token<br></code></pre></td></tr></table></figure>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs undefined"><span class="hljs-section">[common]</span><br><span class="hljs-attr">bind_port</span> = <span class="hljs-number">7000</span><br><span class="hljs-attr">vhost_http_port</span> = <span class="hljs-number">80</span><br><span class="hljs-attr">vhost_https_port</span> = <span class="hljs-number">443</span><br><span class="hljs-attr">dashboard_port</span> = <span class="hljs-number">8088</span><br><span class="hljs-attr">dashboard_user</span> = 用户名<br><span class="hljs-attr">dashboard_pwd</span> = 密码<br><span class="hljs-attr">privilege_token</span> = token<br><span class="hljs-attr">log_file</span> = ./frps.log<br><span class="hljs-attr">log_level</span> = info<br><span class="hljs-section">[web1]</span><br><span class="hljs-attr">type</span> = http<br><span class="hljs-attr">custom_domains</span> = web1.abc.com<br><span class="hljs-attr">auth_token</span> = token<br></code></pre></td></tr></table></figure>
 <p>用户名、密码、token自行填写,[web1] 名字任意，但是客户端配置的时候必须跟服务器是一致的，这里写web1的话，客户端配置中也得写web1，custom_domains 也任意，同理服务端和客户端也必须一致。</p>
 <p>启动服务：</p>
 <p><code>sudo nohup ./frps -c ./frps.ini &amp;</code></p>
@@ -460,7 +460,7 @@
 <p>目录里面应该是这些内容：</p>
 <p><img src="http://pbmsgh6d0.bkt.clouddn.com/frp-win.png" alt="frp-win"></p>
 <p>编辑 frpc.ini 文件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs undefined">[common]<br>server_addr = VPS的IP<br>server_port = 7000<br>privilege_token = 服务端token<br>login_fail_exit = false<br><br>[ssh]<br>type = tcp<br>local_ip = 127.0.0.1<br>local_port = 22<br>remote_port = 6000<br><br>[web1]<br>type = http<br>local_port = 80<br>custom_domains = web1.frp.abc.com<br>auth_token = web1的token<br></code></pre></td></tr></table></figure>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs undefined"><span class="hljs-section">[common]</span><br><span class="hljs-attr">server_addr</span> = VPS的IP<br><span class="hljs-attr">server_port</span> = <span class="hljs-number">7000</span><br><span class="hljs-attr">privilege_token</span> = 服务端token<br><span class="hljs-attr">login_fail_exit</span> = <span class="hljs-literal">false</span><br><span class="hljs-section"><br>[ssh]</span><br><span class="hljs-attr">type</span> = tcp<br><span class="hljs-attr">local_ip</span> = <span class="hljs-number">127.0</span>.<span class="hljs-number">0.1</span><br><span class="hljs-attr">local_port</span> = <span class="hljs-number">22</span><br><span class="hljs-attr">remote_port</span> = <span class="hljs-number">6000</span><br><span class="hljs-section"><br>[web1]</span><br><span class="hljs-attr">type</span> = http<br><span class="hljs-attr">local_port</span> = <span class="hljs-number">80</span><br><span class="hljs-attr">custom_domains</span> = web1.frp.abc.com<br><span class="hljs-attr">auth_token</span> = web1的token<br></code></pre></td></tr></table></figure>
 <p>server_addr：   填写vips的IP地址</p>
 <p>privilege_token： 填写服务端token</p>
 <p>web1：  名字和服务端一致</p>
