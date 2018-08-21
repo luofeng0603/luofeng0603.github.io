@@ -3,6 +3,30 @@
 
 
     
+  <url>
+    <loc>http://luofengblog.com/archives/1e5c5592.html</loc>
+    <lastmod>2018-08-21T08:51:34.401Z</lastmod>
+    <data>
+        <display>
+        <title>多端同步电影</title>
+        <pubTime>2018-08-21T05:51:44.000Z</pubTime>
+        
+        <tag>同步软件</tag>
+         
+        <tag>sync</tag>
+         
+        <tag>Resilio Sync</tag>
+         
+         
+           
+             
+              <breadCrumb title="同步软件" url="http://luofengblog.com/categories/%E5%90%8C%E6%AD%A5%E8%BD%AF%E4%BB%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://luofengblog.com/archives/d0b56b63.html</loc>
@@ -20,30 +44,6 @@
            
              
               <breadCrumb title="Hexo" url="http://luofengblog.com/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://luofengblog.com/archives/1e5c5592.html</loc>
-    <lastmod>2018-08-21T06:47:17.441Z</lastmod>
-    <data>
-        <display>
-        <title>多端同步电影</title>
-        <pubTime>2018-08-21T05:51:44.000Z</pubTime>
-        
-        <tag>同步软件</tag>
-         
-        <tag>sync</tag>
-         
-        <tag>Resilio Sync</tag>
-         
-         
-           
-             
-              <breadCrumb title="同步软件" url="http://luofengblog.com/categories/%E5%90%8C%E6%AD%A5%E8%BD%AF%E4%BB%B6/"/>
           
         </display>
     </data>
